@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2020-12-06T23:34:23" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.18</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="constructor" name="constructor"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="class-or-package" name="class-or-package"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJOxDcJggadJW" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uQMySGm7G07HW" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRJppHdKvcF73" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDOPySNMT58C7" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="unySwzjO0ItiG" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="usoBhXGeBNERJ" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLAMYzIxzuVeS" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uqtZQkrQ38N8f" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u3rsK0iJCdCcV" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u38Xm1hMPQGYo" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uwwqcuwzkaJbM" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u3dtUFRomWc8X" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZKtzLAQS2o0T" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulsK87OAlFu1U" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uYKKwrxKf3bDw" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uQAg19d6B7ghu" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u8G7Z5fMjziea" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJ05sREv5oVCz" name="wchar_t"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uWQRXcXQ6cctK" name="array"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHx6TSwStOmEE" name="tuple"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJFLsdjCh0TTR" name="list"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uabuY1Sw0noMT" name="long"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJSKOr9ZQQ5EJ" name="dict"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uhTkX8Jb0HdNz" name="object"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uab0sTIXQ1eYM" name="set"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="up64cRm03xcio" name="bala">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uXLG33aoNMCOT"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uN8MBBteTZFdp" comment="print(&quot;Hola&quot;)" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="urVYmzB0HVhN1" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufiXmbUvT6rjb" comment="print(&quot;Disparo&quot;)" isOverride="false" name="dibujar" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uHiKPoS4lofmB" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEe1ihwmBvXF7" name="Entidad">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uPlTfKBtUY74l"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="ua7Eyj38PkTu3" type="uQMySGm7G07HW" initialValue="0" name="x"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="u47am0yHTTJto" type="uQMySGm7G07HW" initialValue="0" name="y"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="uKXxJTlgPXnL8" type="uQMySGm7G07HW" initialValue="0" name="cantImagenesMovimieto"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="uGIuUrXwGDoTM" type="uQMySGm7G07HW" initialValue="0" name="cantImagenesMuerte"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="u3HFlpkkM2HXG" type="uJFLsdjCh0TTR" initialValue="[]" name="animacionMovimiento"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="uTRGzEBri8sw4" type="uJFLsdjCh0TTR" initialValue="[]" name="animacionMuerte"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="umoalt7NzxmK4" type="uJFLsdjCh0TTR" initialValue="[]" name="animacionActual"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u63DbY2oS4B2u" type="uhTkX8Jb0HdNz" name="image"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uVVrgtlsnCIko" type="uQMySGm7G07HW" initialValue="(self.animacionActual)" name="tamanoAnimacionActual"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uHPBhvz2dMF2w" type="uQMySGm7G07HW" comment="indice de animacionActual" initialValue="0" name="contadorAnimacion"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="uiQw6m5jENADR" type="uQMySGm7G07HW" initialValue="0" name="tiempoTranscurrido"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u9wWN4nIYe5QU" type="uQMySGm7G07HW" comment="velocidad de animacion" initialValue="3" name="velocidadAnimacion"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uuhjTChav5sRm" type="unySwzjO0ItiG" initialValue="True" name="animacionActivada"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u7o91EFHdwGoc" type="unySwzjO0ItiG" initialValue="True" name="eliminar"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u8HwRIvk18pBt" type="uQMySGm7G07HW" name="numeroAnimacion"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uc6p9mnwCLD61" type="u0G4Qb7YZQSwh" initialValue="(os.path.join(ubicacionArchivo,nombreArchivo))" name="imageDerecha"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uLSuvRboqXUop" type="ujzDRdxm4M7Sh" initialValue="(self.imageDerecha,True,False)" name="imageIzquierda"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uChVjPv0bi7dm" type="uJqGNFqLLhSOP" initialValue="(self.imageDerecha,90)" name="imageArriba"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uYrHJDDURLIbJ" type="uJqGNFqLLhSOP" initialValue="(self.imageDerecha,-90)" name="imageAbajo"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ugmVVPM6k3Hac" type="uwdouMWs5nkqd" initialValue="()" name="rect"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u3HxZMNVsfmLG" type="uhTkX8Jb0HdNz" name="rect.x"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uSiH1oVxzuwnH" type="uhTkX8Jb0HdNz" name="rect.y"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uAYoYkiTJkYoC" type="uQMySGm7G07HW" initialValue="0" name="cantAnimacionMuerte"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ugpr82tjo4LoS" comment="entidad=Entidad(12,12,pg.image.load(os.path.join('Graficos/Personaje#1', 'pixil-frame-0.png')))" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uUlI6WGrxMXK5" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uA4joM6KuLOol" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uRjz044W6PQWi" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ufnctEhoGW8Bl" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u2kJhx2tbwF3E" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="up64cRm03xcio" xmi.id="uXLG33aoNMCOT" parent="uEe1ihwmBvXF7" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uIHUtLcbCaAT4" name="balaMovimiento">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="ucmwKttDJ8kGM"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ujwBAr9ohbkcp" type="uhTkX8Jb0HdNz" name="velocidadDisparo"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u0GtMxWnCJHEM" type="uhTkX8Jb0HdNz" name="rect.top"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="upC6QUrXZJsnT" type="uhTkX8Jb0HdNz" name="rect.left"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uMKRABsqcWa6m" type="uhTkX8Jb0HdNz" name="rotacion"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uo63ILmtrKOWp" type="uhTkX8Jb0HdNz" name="imagenUsuario"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ukdUhJasEYcsx" type="u2N67tzYQmzA5" initialValue="()" name="rect"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uVZmP6cFWxTcj" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u4JDec3mZ6McA" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uksqepWf2m6SL" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uPul5xSxPI2CO" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uqwXHrYAfIZYG" type="usoBhXGeBNERJ" value="" name="imagenUsuario"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uExo4DucWrEHc" type="usoBhXGeBNERJ" value="" name="velocidadBala"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uhUGKciMbLrK7" type="usoBhXGeBNERJ" value="" name="rotacion"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uIHUtLcbCaAT4" xmi.id="ucmwKttDJ8kGM" parent="up64cRm03xcio" name=""/>
+      <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uUBlOGN3pUkSn" name="self">
+       <UML:Namespace.ownedElement>
+        <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="uUBlOGN3pUkSn" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="umRCUmv1RNIer" name="imagenUsuario">
+         <UML:Namespace.ownedElement>
+          <UML:Class visibility="public" isSpecification="false" namespace="umRCUmv1RNIer" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2N67tzYQmzA5" name="get_rect"/>
+         </UML:Namespace.ownedElement>
+        </UML:Class>
+        <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="uUBlOGN3pUkSn" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKLATq3a3OtGw" name="image">
+         <UML:Namespace.ownedElement>
+          <UML:Class visibility="public" isSpecification="false" namespace="uKLATq3a3OtGw" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uwdouMWs5nkqd" name="get_rect"/>
+         </UML:Namespace.ownedElement>
+        </UML:Class>
+        <UML:Class visibility="public" isSpecification="false" namespace="uUBlOGN3pUkSn" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uzwl4CHGwj6Gh" name="groups"/>
+        <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="uUBlOGN3pUkSn" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uy6Y6QlpHyznh" name="objetoPersonaje">
+         <UML:Namespace.ownedElement>
+          <UML:Class visibility="public" isSpecification="false" namespace="uy6Y6QlpHyznh" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u56pXAq9r66TJ" name="getVelocidadX"/>
+          <UML:Class visibility="public" isSpecification="false" namespace="uy6Y6QlpHyznh" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="up9aomR5dfEMv" name="getVelocidadY"/>
+          <UML:Class visibility="public" isSpecification="false" namespace="uy6Y6QlpHyznh" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uC4NyE6LGv8qs" name="getVida"/>
+         </UML:Namespace.ownedElement>
+        </UML:Class>
+       </UML:Namespace.ownedElement>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u0jtlUHcQIQSU" name="BloqueDestructible">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="ubLqXz24cVjca"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uWrEWtP2xcUma" type="uhTkX8Jb0HdNz" name="resistencia"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uOsPEfQMcfYYX" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uZdtscaKupEzr" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u85zrKBXVOMFO" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uDC7UjKJrxnRd" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQZxU0KIwSipX" type="usoBhXGeBNERJ" value="" name="col"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="udy0CDaASIHlE" type="usoBhXGeBNERJ" value="" name="fila"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uPLiRcWFuIhwg" type="usoBhXGeBNERJ" value="" name="tamano"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uOOW1pKE7gHrv" type="usoBhXGeBNERJ" value="" name="nombre"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uuAij2p6aAKTw" type="usoBhXGeBNERJ" value="" name="resistencia"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uCGmhRcX5kT14" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ub7mPf5HDclSZ" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uetSA5KjBpVN6" isOverride="false" name="getResistencia" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uwCggwCEmmkeb" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ut0DGPdklTAyZ" isOverride="false" name="setResistencia" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="urtt5av8SiZGC" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u54Uj3kBPuVe4" type="usoBhXGeBNERJ" value="" name="nuevaResistencia"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uar9V7ZoajN6C" name="ObjetoLaberinto">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="usHPpBc85NzvT"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uXrbm3mIW9RZE" type="uhTkX8Jb0HdNz" name="columna"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uO1mgy9hsfnPe" type="uhTkX8Jb0HdNz" name="fila"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u2kbxLsOSzsGi" type="uhTkX8Jb0HdNz" name="TamanoMax"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uHBSakbYBEGhZ" type="uhTkX8Jb0HdNz" name="nombre"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uzsSlBBR97tB9" type="uhTkX8Jb0HdNz" name="ubicacionArchivo"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uYiINu4xV5mhv" type="uhTkX8Jb0HdNz" name="nombreArchivo"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="udnEQdJxlelom" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uKwqPX8XosZU6" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uWSrAhB4TojAq" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uveTnnlNWmRjk" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ujagkCVzCjRyO" type="usoBhXGeBNERJ" value="" name="col"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uJdzGQycToALX" type="usoBhXGeBNERJ" value="" name="fila"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uJDhFFGobDtZk" type="usoBhXGeBNERJ" value="" name="tamano"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uWDnxBXwJpN71" type="usoBhXGeBNERJ" value="" name="nombre"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ubQAVH3Elek4b" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uT5bNZChZeOTR" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uxVq6fmSMc9hV" isOverride="false" name="getnombre" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uQew6QpRt7SJl" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uk5GxkqqjJJ5d" isOverride="false" name="getTamanoMax" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uLtDAxjimSDWD" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLaVZ7M7YGJF9" isOverride="false" name="getColumna" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u6bIK2uKJJNHJ" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="us5C6npTLyMMn" isOverride="false" name="getFila" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uCicoTplZQkf4" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u9pTvkzY32Plr" isOverride="false" name="setFila" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ueu6PYNgPRrrB" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u1MfujaMazEI7" type="usoBhXGeBNERJ" value="" name="nuevaFila"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="u0jtlUHcQIQSU" xmi.id="ubLqXz24cVjca" parent="uar9V7ZoajN6C" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uUZOOqRwLXxxD" name="BloqueIndestructible">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uNCRzM6ZGgcGX"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uADL0ZXdBhbUd" type="unySwzjO0ItiG" initialValue="False" name="pasable"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uhqwms8Zz8fJY" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uXEOLBomOEfwN" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ue4jI9xdtFgDo" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ueNMOIg7OxOz5" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uBI2uvGiumCCa" type="usoBhXGeBNERJ" value="" name="col"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ujBh9JjR2UBi4" type="usoBhXGeBNERJ" value="" name="fila"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uExWOA781DOL2" type="usoBhXGeBNERJ" value="" name="tamano"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uRfdAiI675BKf" type="usoBhXGeBNERJ" value="" name="nombre"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uW2tCZi97OQuA" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u1DWLPlW6sEwq" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u1lDa59krfRsG" isOverride="false" name="getPasable" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uX5ycbDrNfnG3" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uoBZ24S4Q7lt1" isOverride="false" name="setPasable" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ucrO3SmWYzK1S" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uwwmzJMR4EL53" type="usoBhXGeBNERJ" value="" name="nuevoPasable"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uUFzd8f3fOi3w" isOverride="false" name="colisionConJugador" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u4Fv5ovDLRjiW" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u3wI4yiQJ9DET" type="usoBhXGeBNERJ" value="" name="jugador"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uUZOOqRwLXxxD" xmi.id="uNCRzM6ZGgcGX" parent="uar9V7ZoajN6C" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHqarXXiIF8hi" name="ConstructorAbstracto">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="utwpkRrNpgjO7"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ubZ0kXGSKCQdk" type="uQMySGm7G07HW" initialValue="0" name="numCol"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u2N40ZPWtuvcj" type="uQMySGm7G07HW" initialValue="0" name="numFila"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uPgYeA8yg8oxg" type="uQMySGm7G07HW" initialValue="0" name="tamanoCuadro"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="udupZBlHaNU0y" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uisFTEjIKqgN7" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uqZdlSe1hn3wK" isOverride="false" name="crearLaberinto" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u3zbjJEKW8Kwb" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uOQCvO7wL9BI9" type="usoBhXGeBNERJ" value="" name="cols"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u2j9kiWkhMs5i" type="usoBhXGeBNERJ" value="" name="filas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uDgTgok76oqE9" type="usoBhXGeBNERJ" value="" name="tamanoBloque"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uC1h1ePbGGkpk" type="usoBhXGeBNERJ" value="" name="bloqueDes"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="unOynkiGtwKeq" type="usoBhXGeBNERJ" value="" name="bloqueInd"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uLSE3nl1PBAMY" type="usoBhXGeBNERJ" value="" name="bloqueVac"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uaqiJwPMhStpo" type="usoBhXGeBNERJ" value="" name="objetivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u4Aag79PhtisV" type="usoBhXGeBNERJ" value="" name="poder"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uUUgbVfoql9bY" type="usoBhXGeBNERJ" value="&quot;nivel1&quot;" name="nivel"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="usYLBLWbwXe1r" isOverride="false" name="crearObjetivo" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uX48dL8yriOdA" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uiZs05qxZqGHC" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uaO659ldJMbBb" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="usRuUicXp7XsG" type="usoBhXGeBNERJ" value="" name="col"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u0CdsTXe1ZfVX" type="usoBhXGeBNERJ" value="" name="fila"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u5cxYpiRd20Ev" type="usoBhXGeBNERJ" value="" name="tamano"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uo1xyu9YzYhDs" type="usoBhXGeBNERJ" value="" name="nombre"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uKetF7WcJI09K" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u5WFs8pVelkf9" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uT1Xsow2JaYXi" name="ABC"/>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uHqarXXiIF8hi" xmi.id="utwpkRrNpgjO7" parent="uT1Xsow2JaYXi" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="umhDv4sdXR2KO" name="ConstructorAleatorio">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uxah30KANQkua"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDFA4Q2Z0Hgph" comment="Se ignora el parametro nivelSe agregan los bloques indestructiblesPoner objetivoPoner poder" isOverride="false" name="crearBloque" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u7zcxC6yOW42L" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uFOc4xrBFSw0a" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u8WkB5JAxYQB3" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uE4VVsBrTaSnd" type="usoBhXGeBNERJ" value="" name="col"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ukzqPdvur20cD" type="usoBhXGeBNERJ" value="" name="fila"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="usxtwVbBC4qqT" type="usoBhXGeBNERJ" value="" name="tamano"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uB1u7YZwpkCLu" type="usoBhXGeBNERJ" value="" name="nombre"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uFhalN00uyrYU" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uIFyb6qlvLzEV" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uYAVuZlwX1Fo2" type="unySwzjO0ItiG" value="False" name="destructible"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uOuO2aANxQxGj" type="uQMySGm7G07HW" value="0" name="resistencia"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="umhDv4sdXR2KO" xmi.id="uxah30KANQkua" parent="uHqarXXiIF8hi" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uYApSgwU5aLZm" name="ConstructorArchivoTexto">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="urxHoA4isLAsj"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJROFrR5rQlSn" isOverride="false" name="CrearBloque" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u3hMpOkrjwYij" type="uar9V7ZoajN6C"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uiIN9cK1j8zfb" type="uQMySGm7G07HW" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u8r2TIBRtniC2" type="uQMySGm7G07HW" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uOveEgV9cvrbX" type="uQMySGm7G07HW" value="" name="col"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uheWP6OFEyFaZ" type="uQMySGm7G07HW" value="" name="fila"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uO6ERauAiK2GI" type="uQMySGm7G07HW" value="" name="tamano"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uZ4W4HBuppZRb" type="usoBhXGeBNERJ" value="" name="nombre"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uNt0TAbBlt33U" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uPn5Gpaq8aPLT" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uLjQh3Y9J5jJG" type="unySwzjO0ItiG" value="False" name="destructible"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uvsz9e8BRFX6V" type="uQMySGm7G07HW" value="0" name="resistencia"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ud3qVFUnwxU5U" isOverride="false" name="crearObjetivo" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uErqEVBPh5zmS" type="uOikxvcI3Dcla"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u1CcCazH0FITF" type="uQMySGm7G07HW" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uJyx9RvlUnbfz" type="uQMySGm7G07HW" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u5HW2QrkNBH3l" type="uQMySGm7G07HW" value="" name="col"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="umpQxAO9QHKAv" type="uQMySGm7G07HW" value="" name="fila"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uhG9P9mldf6JS" type="uQMySGm7G07HW" value="" name="tamano"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uZx2V6ykWhwqm" type="usoBhXGeBNERJ" value="" name="nombre"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uuIBaY3y3EmTe" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uhQM7T3pmAWO7" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKVjK5BwTG3GX" isOverride="false" name="cargarLaberinto" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ubGNqNwp5df74" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="usTLI6TC4Pz9V" type="u60GPjxct5AJA" value="" name="laberinto"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uyxt0sbNe4tj6" type="u0jtlUHcQIQSU" value="" name="bloqueDes"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uu4NKNoIz5Koa" type="uUZOOqRwLXxxD" value="" name="bloqueInd"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uN5KYIe92vGUK" type="uUZOOqRwLXxxD" value="" name="bloqueVac"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ukLdnBC6Du6Z3" type="uOikxvcI3Dcla" value="" name="objetivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uvdF2M9UxDXIk" type="uUZOOqRwLXxxD" value="" name="poder"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uO4Z3PtTQLhXZ" isOverride="false" name="crearLaberinto" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQjjUDc0hAu0K" type="uQMySGm7G07HW" value="" name="cols"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u0MDX17gsYi6W" type="uQMySGm7G07HW" value="" name="filas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u1YYI6jUWYW88" type="uQMySGm7G07HW" value="" name="tamanoBloque"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="usAPS4RBApFYh" type="u0jtlUHcQIQSU" value="" name="bloqueDes"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uhr53BNSqq0R3" type="uUZOOqRwLXxxD" value="" name="bloqueInd"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u0xBO9tlBg9co" type="uUZOOqRwLXxxD" value="" name="bloqueVac"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uDChmJQKfL62L" type="uOikxvcI3Dcla" value="" name="objetivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uckqVPkQaNGGC" type="uUZOOqRwLXxxD" value="" name="poder"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uppRdJ0lixbyu" type="usoBhXGeBNERJ" value="" name="nivel"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uYApSgwU5aLZm" xmi.id="urxHoA4isLAsj" parent="uHqarXXiIF8hi" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uW8mf2iBTrA5C" name="Controlador">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uUH9UYel0G25M" type="urgKw3pGn0xAh" initialValue="()" name="entidades"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ugCi6AEwEUgCS" type="uhTkX8Jb0HdNz" initialValue="None" name="ventanaJuego"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="udW71sbn4oZzJ" type="uhTkX8Jb0HdNz" initialValue="None" name="laberinto"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ujE8agZz2z6QI" type="uhTkX8Jb0HdNz" initialValue="None" name="jugador"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ucxWHwy2jFfdM" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uOdZnH0VuIPrY" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ugpeCRLBJ5s2e" isOverride="false" name="ejecutarMenu" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uwyO9AFjPkGOe" type="usoBhXGeBNERJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uccMdUY482HLX" comment="Dibuja en la vista todas las entidades que se han creado'Le da vida' a todos las entidades que se han creado. Llama el metodo update de cada entidad" isOverride="false" name="crearLaberinto" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="utTCUWiRWCbDv" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u0xXOoxRw2fH4" type="usoBhXGeBNERJ" value="" name="filas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uniEp9F18Lc6c" type="usoBhXGeBNERJ" value="" name="columnas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uUg21Y8XESH6G" type="usoBhXGeBNERJ" value="" name="tamanoCuadro"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uztoUk9ikAvn0" name="pygame">
+       <UML:Namespace.ownedElement>
+        <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="uztoUk9ikAvn0" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uuq8WhIACpDzW" name="sprite">
+         <UML:Namespace.ownedElement>
+          <UML:Class visibility="public" isSpecification="false" namespace="uuq8WhIACpDzW" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="urgKw3pGn0xAh" name="Group"/>
+         </UML:Namespace.ownedElement>
+        </UML:Class>
+        <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="uztoUk9ikAvn0" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRat76wi2FNfy" name="transform">
+         <UML:Namespace.ownedElement>
+          <UML:Class visibility="public" isSpecification="false" namespace="uRat76wi2FNfy" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ujzDRdxm4M7Sh" name="flip"/>
+          <UML:Class visibility="public" isSpecification="false" namespace="uRat76wi2FNfy" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJqGNFqLLhSOP" name="rotate"/>
+         </UML:Namespace.ownedElement>
+        </UML:Class>
+        <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="uztoUk9ikAvn0" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ua2WopdPDmV4l" name="display">
+         <UML:Namespace.ownedElement>
+          <UML:Class visibility="public" isSpecification="false" namespace="ua2WopdPDmV4l" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ussImOTSYln2B" name="set_mode"/>
+         </UML:Namespace.ownedElement>
+        </UML:Class>
+       </UML:Namespace.ownedElement>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uTfl6NeVhOWtz" comment="Se define la posiciÃ³n en x y y de inicio, y la vida e inicio." name="Enemigo">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uldUKekMNGxR9"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uA9gC800y6oQp" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uOhsM89MxraOZ" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uO6aRpMCZLm52" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u6VoTdPNy35dE" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ueccO9BTWICCK" type="usoBhXGeBNERJ" value="" name="valor"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uX4MYbSfTE3Dy" type="usoBhXGeBNERJ" value="" name="velX"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u40fmMx1fx80g" type="usoBhXGeBNERJ" value="" name="velY"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u94k8icH2GqEW" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uRRRMov17v3gp" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uwQYyekaLx7VX" type="usoBhXGeBNERJ" value="" name="ancho"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uaAYTRverl6f9" type="usoBhXGeBNERJ" value="" name="largo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uZaSwdGGLNJoV" type="usoBhXGeBNERJ" value="" name="imagenBala"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uM7DUc0wSFw2i" name="Personaje">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uwM7ldkpXb37f"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ucyN7BGaF73Ax" type="uQMySGm7G07HW" name="vida"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uG8XJi4weM7XM" type="uQMySGm7G07HW" name="velocidadX"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uILLe5AxEU565" type="uQMySGm7G07HW" name="velocidadY"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u2SHmSP941mzV" type="uQMySGm7G07HW" name="anchoVentana"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="upzkvgDUrASYb" type="uQMySGm7G07HW" name="largoVentana"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uLN7UZB9aULDB" type="uhTkX8Jb0HdNz" name="imagenBala"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u6cF6MCKggsN9" type="uQMySGm7G07HW" comment="AGREGUE ESE -50 PORQUE LLEGABA A UN EXTREMO DEL MAPA SIN USO" initialValue="950" name="rect.y"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="uipkXrxHvnyC3" type="uIHUtLcbCaAT4" comment="AGREGUE ESE -50 PORQUE LLEGABA A UN EXTREMO DEL MAPA SIN USO" initialValue="(posx,posy,self.imagenBala,velocidadBala,rotacion)" name="nuevaBala"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="urUr9XqEG76fE" type="uzwl4CHGwj6Gh" comment="AGREGUE ESE -50 PORQUE LLEGABA A UN EXTREMO DEL MAPA SIN USO" initialValue="()" name="entidades"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uNDOtUWx7FNjo" comment="Se agrega metodo round, para evitar warning de truncamiento implicito en la funcion &quot;blit&quot;AGREGUE ESE -50 PORQUE LLEGABA A UN EXTREMO DEL MAPA SIN USOself.listaDisparo.append(nuevaBala)" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="umTXieFR7UREH" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uLsp5O5td0hIj" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uVWIMZZL2ZMaP" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uOY6RHuOjmi0a" type="usoBhXGeBNERJ" value="" name="valor"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="upxgTWzocM14i" type="usoBhXGeBNERJ" value="" name="velX"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ujAN5TpNBRzHM" type="usoBhXGeBNERJ" value="" name="velY"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uF9XkCAfhRTgc" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uAc6eXRK1NDSP" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u846XyZun8vqu" type="usoBhXGeBNERJ" value="" name="ancho"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uarU9DS7XkIAY" type="usoBhXGeBNERJ" value="" name="largo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uABxEF5Xnukt3" type="usoBhXGeBNERJ" value="" name="imagenBala"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uTfl6NeVhOWtz" xmi.id="uldUKekMNGxR9" parent="uM7DUc0wSFw2i" name=""/>
+      <UML:Package visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJEypwvBNUCap" name="pg">
+       <UML:Namespace.ownedElement>
+        <UML:Package visibility="public" isSpecification="false" namespace="uJEypwvBNUCap" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uhtM2WeJOLaao" name="sprite">
+         <UML:Namespace.ownedElement>
+          <UML:Class visibility="public" isSpecification="false" namespace="uhtM2WeJOLaao" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZhrS14LPrPLz" name="Sprite"/>
+         </UML:Namespace.ownedElement>
+        </UML:Package>
+        <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="uJEypwvBNUCap" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ucrRpzgch3S53" name="image">
+         <UML:Namespace.ownedElement>
+          <UML:Class visibility="public" isSpecification="false" namespace="ucrRpzgch3S53" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u0G4Qb7YZQSwh" name="load"/>
+         </UML:Namespace.ownedElement>
+        </UML:Class>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uEe1ihwmBvXF7" xmi.id="uPlTfKBtUY74l" parent="uZhrS14LPrPLz" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uOG81lMnN1MQ3" name="len"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uElECc6gRNqzG" comment="Se define la posiciÃ³n en x y y de inicio, y la vida e inicio." name="Jugador">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uYUXzmmXIcJQ8"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uLx8dVtDPTrDV" type="uhTkX8Jb0HdNz" name="image"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="u9uiBAt1ebD6L" type="uhTkX8Jb0HdNz" name="y"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u7qlFRWWNYYZ9" comment="Pruebas para pantalla final del juego" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="utIiaGLtyUEMz" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uiJwZzmuDGeWV" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u3uDmkCgYg18a" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uzaWCETt7d0sB" type="usoBhXGeBNERJ" value="" name="valor"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uCAkVyx4LXOs0" type="usoBhXGeBNERJ" value="" name="velX"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uADCsxaXL9NLs" type="usoBhXGeBNERJ" value="" name="velY"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uJI304T79bnZc" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ul0xrUtDPnGk6" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uNDSheWpX3rtO" type="usoBhXGeBNERJ" value="" name="ancho"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="upv95t5iFAlSr" type="usoBhXGeBNERJ" value="" name="largo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uhdeQXA4kxc2s" type="usoBhXGeBNERJ" value="" name="imagenBala"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uElECc6gRNqzG" xmi.id="uYUXzmmXIcJQ8" parent="uM7DUc0wSFw2i" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHQfWq327CkPd" name="Laberinto">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ujgclW0IS3Sr3" type="uhTkX8Jb0HdNz" name="columnas"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uzwO1UOuTYLun" type="uhTkX8Jb0HdNz" name="tamanoCuadro"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uzjUjChUI1nSS" type="uJFLsdjCh0TTR" initialValue="[]" name="matriz"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="uD9EPYTIhHn3T" type="uhTkX8Jb0HdNz" name="objetoNuevo.image"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="uANdNUNq1Bvvo" type="uhTkX8Jb0HdNz" name="objetoNuevo.rect.y"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="uficJujwS0wfr" type="uhTkX8Jb0HdNz" name="objetoNuevo.rect.x"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uQFKy9g6C3iC9" comment="Instancia una copia del objeto de Relleno | TO DO: Crear meotodo de copia generico en Entidad" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uZyr62JkRyALv" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u3aNSkS1sQjzs" type="usoBhXGeBNERJ" value="" name="filas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u4BLdiFHBCLjH" type="usoBhXGeBNERJ" value="" name="columnas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uYhg901K8elai" type="usoBhXGeBNERJ" value="" name="tamanoCuadro"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uOikxvcI3Dcla" name="Objetivo">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uv8GCUNJp1syy"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKRg2DyexNwdk" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uCPiQBDAdxXxG" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uAD1wHsLfBpH9" type="usoBhXGeBNERJ" value="" name="posx"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQApACIhfex6i" type="usoBhXGeBNERJ" value="" name="posy"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQ5CtgINng2dh" type="usoBhXGeBNERJ" value="" name="col"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uB1DiBF0NoVvJ" type="usoBhXGeBNERJ" value="" name="fila"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uSlMQrjLHbPUC" type="usoBhXGeBNERJ" value="" name="tamano"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uX8nVXCgEgiUc" type="usoBhXGeBNERJ" value="" name="nombre"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uKou1Z9jpzX9Y" type="usoBhXGeBNERJ" value="" name="ubicacionArchivo"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ux0mBVQqaqqjy" type="usoBhXGeBNERJ" value="" name="nombreArchivo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uOikxvcI3Dcla" xmi.id="uv8GCUNJp1syy" parent="uar9V7ZoajN6C" name=""/>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uar9V7ZoajN6C" xmi.id="usHPpBc85NzvT" parent="uEe1ihwmBvXF7" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHu8prathFDgM" name="PantallaJuego">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uYIbpKchwwzBS" type="uhTkX8Jb0HdNz" name="altura"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uC310MUluQU9f" type="ussImOTSYln2B" initialValue="((self.ancho,self.altura))" name="ventana"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="unNmGe2JCMXwo" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uqmPmvsqBfTFV" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uM7CLTSCX5kjb" type="usoBhXGeBNERJ" value="" name="anchoVentana"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u0fR7ZhBm6YmT" type="usoBhXGeBNERJ" value="" name="alturaVentana"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uM7DUc0wSFw2i" xmi.id="uwM7ldkpXb37f" parent="uEe1ihwmBvXF7" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulSD5K7kfpcvR" name="Personaje_Extravelocidad">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uc0CyPo0d0Nqa"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uxvyziJ0rWfXq" type="uhTkX8Jb0HdNz" name="objetoPersonaje"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uaMD8PCeesHJQ" type="uQMySGm7G07HW" initialValue="()" name="actualVelocidadX"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uomkstNsng7Js" type="uQMySGm7G07HW" initialValue="()" name="actualVelocidadY"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ucVTlQ0qUyEXZ" type="uQMySGm7G07HW" name="nuevaVelocidadX"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="umHSNC7bWjguB" type="uQMySGm7G07HW" name="nuevaVelocidadY"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLaf5RUp59mGM" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u2YO37yq3SvQu" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uIJw6HyK9zRmj" type="usoBhXGeBNERJ" value="" name="personaje"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uCCLAeMdKbCUi" type="usoBhXGeBNERJ" value="" name="velX"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uabTOziH2ZUnC" type="usoBhXGeBNERJ" value="" name="velY"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="ulSD5K7kfpcvR" xmi.id="uc0CyPo0d0Nqa" parent="uM7DUc0wSFw2i" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uFTcezbXUev6u" name="Personaje_Extravida">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="u2eHJZx7DEd0z"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uIAMw17oBqqZn" type="uhTkX8Jb0HdNz" name="objetoPersonaje"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uVay73w2gZepk" type="uQMySGm7G07HW" name="extraVida"/>
+        <UML:Attribute visibility="public" isSpecification="false" ownerScope="classifier" xmi.id="utlWdWxKXOU4S" type="uQMySGm7G07HW" initialValue="0" name="vidaAcual"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uZPMTObOLsQPQ" type="uC4NyE6LGv8qs" initialValue="()" name="vidaActual"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uqeoX4Up97eR9" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="urTYL1ni2YXIB" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uI9SnyHV2JEUl" type="usoBhXGeBNERJ" value="" name="personaje"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ublcZGLV5OoyJ" type="usoBhXGeBNERJ" value="" name="val"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uFTcezbXUev6u" xmi.id="u2eHJZx7DEd0z" parent="uM7DUc0wSFw2i" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uk5la6rysDisu" name="Personaje_Inmunidad">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="ufoDr1aYyi4d3"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ux7O3OoJAaO7m" type="uhTkX8Jb0HdNz" name="objetoPersonaje"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u4JM1Kcbc4Jdb" type="unySwzjO0ItiG" name="inmunidad"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u5K45ApZjkgBJ" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ud8H21epWTV3F" type="usoBhXGeBNERJ"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u4TDvGfJjtWHE" type="usoBhXGeBNERJ" value="" name="personaje"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uIjW3NSmMRWLQ" type="usoBhXGeBNERJ" value="" name="val"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uk5la6rysDisu" xmi.id="ufoDr1aYyi4d3" parent="uM7DUc0wSFw2i" name=""/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u60GPjxct5AJA" name="laberinto"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="120">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="1836.79" canvaswidth="4426.95" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="30.59022862539063" xmi.id="uuseRnaIxsmQH" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-12446.3" showattsigs="601" showstereotype="1" y="-3187.23" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u6UlLXEplt2o5" width="225" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="up64cRm03xcio" autoresize="1" showscope="1" height="59" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-12713.6" showattsigs="601" showstereotype="1" y="-3002.88" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uaRb4nVxJT1Jt" width="801" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uIHUtLcbCaAT4" autoresize="1" showscope="1" height="136" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-10696.4" showattsigs="601" showstereotype="1" y="-2570.92" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u11NnVHiD3byy" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="u0jtlUHcQIQSU" autoresize="1" showscope="1" height="85" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-10702.3" showattsigs="601" showstereotype="1" y="-2437.66" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u8VjDsFy7hVIG" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uUZOOqRwLXxxD" autoresize="1" showscope="1" height="102" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-12073.3" showattsigs="601" showstereotype="1" y="-4156.92" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uNE5F8V6zMSXg" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uHqarXXiIF8hi" autoresize="1" showscope="1" height="119" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-12552.2" showattsigs="601" showstereotype="1" y="-3919.73" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="udXqYr6tvj7G6" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="umhDv4sdXR2KO" autoresize="1" showscope="1" height="42" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-11450.5" showattsigs="601" showstereotype="1" y="-3922.6" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uVOIaWgQSErF9" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uYApSgwU5aLZm" autoresize="1" showscope="1" height="93" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-11844.7" showattsigs="601" showstereotype="1" y="-3222.1" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u4o02wXFvhW3I" width="524" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uW8mf2iBTrA5C" autoresize="1" showscope="1" height="136" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-13776" showattsigs="601" showstereotype="1" y="-3913.05" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uIziT7MEW9R0V" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uTfl6NeVhOWtz" autoresize="1" showscope="1" height="42" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-13077.6" showattsigs="601" showstereotype="1" y="-2748.17" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uYJPolg6MteCP" width="713" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uEe1ihwmBvXF7" autoresize="1" showscope="1" height="425" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-12978.7" showattsigs="601" showstereotype="1" y="-3680.86" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ub3l6ViTnGmu4" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uElECc6gRNqzG" autoresize="1" showscope="1" height="68" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-11214.5" showattsigs="601" showstereotype="1" y="-3222.98" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ukq2PFSxydt99" width="573" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uHQfWq327CkPd" autoresize="1" showscope="1" height="136" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-11775.7" showattsigs="601" showstereotype="1" y="-2827.94" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uQwruE1OB4XMV" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uOikxvcI3Dcla" autoresize="1" showscope="1" height="42" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-11797.8" showattsigs="601" showstereotype="1" y="-2547.13" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="upkaEok1bezY9" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uar9V7ZoajN6C" autoresize="1" showscope="1" height="221" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-11546.9" showattsigs="601" showstereotype="1" y="-3397.85" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="urYBMmADhFbst" width="511" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uHu8prathFDgM" autoresize="1" showscope="1" height="68" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-13544.8" showattsigs="601" showstereotype="1" y="-3393.05" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uWQh1zsiPCkFy" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uM7DUc0wSFw2i" autoresize="1" showscope="1" height="187" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-13959" showattsigs="601" showstereotype="1" y="-3652.24" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uMkwZ8zXXWylL" width="504" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="ulSD5K7kfpcvR" autoresize="1" showscope="1" height="119" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-14100.8" showattsigs="601" showstereotype="1" y="-3454.32" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uct1dmOs5qKPA" width="411" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uFTcezbXUev6u" autoresize="1" showscope="1" height="102" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-14123.3" showattsigs="601" showstereotype="1" y="-3237.39" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uzziyMbDjfH2v" width="411" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uk5la6rysDisu" autoresize="1" showscope="1" height="68" showopsigs="601"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="up64cRm03xcio" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uIHUtLcbCaAT4" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uIkWWtiTTLW6w" usefillcolor="1" fillcolor="none" xmi.id="ucmwKttDJ8kGM" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-12232.7" starty="-3002.88"/>
+           <endpoint endx="-12232.7" endy="-3128.23"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uHqarXXiIF8hi" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="umhDv4sdXR2KO" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uctTrOfhWwizu" usefillcolor="1" fillcolor="none" xmi.id="uxah30KANQkua" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-11701.4" starty="-3919.73"/>
+           <endpoint endx="-11701.4" endy="-4037.92"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uHqarXXiIF8hi" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uYApSgwU5aLZm" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uiwMzXtyGYdP5" usefillcolor="1" fillcolor="none" xmi.id="urxHoA4isLAsj" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-11417.8" starty="-3922.6"/>
+           <endpoint endx="-11417.8" endy="-4037.92"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uEe1ihwmBvXF7" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="up64cRm03xcio" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uTytAM1SYNxzU" usefillcolor="1" fillcolor="none" xmi.id="uXLG33aoNMCOT" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-12423.4" starty="-3128.23"/>
+           <endpoint endx="-12423.4" endy="-2748.17"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uar9V7ZoajN6C" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="u0jtlUHcQIQSU" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ulKK4xLxxkmYE" usefillcolor="1" fillcolor="none" xmi.id="ubLqXz24cVjca" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-10696.4" starty="-2547.13"/>
+           <endpoint endx="-10797.8" endy="-2547.13"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uar9V7ZoajN6C" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uUZOOqRwLXxxD" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="unTCJl1slDx72" usefillcolor="1" fillcolor="none" xmi.id="uNCRzM6ZGgcGX" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-10702.3" starty="-2365.06"/>
+           <endpoint endx="-10797.8" endy="-2365.06"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uar9V7ZoajN6C" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uOikxvcI3Dcla" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uZhcuxC0zFM3d" usefillcolor="1" fillcolor="none" xmi.id="uv8GCUNJp1syy" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-11268.8" starty="-2785.94"/>
+           <endpoint endx="-11268.8" endy="-2547.13"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uEe1ihwmBvXF7" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uar9V7ZoajN6C" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="udAtIMvBLaV97" usefillcolor="1" fillcolor="none" xmi.id="usHPpBc85NzvT" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-11797.8" starty="-2326.13"/>
+           <endpoint endx="-12364.6" endy="-2326.13"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uM7DUc0wSFw2i" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uTfl6NeVhOWtz" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uL8mXgekS0JDf" usefillcolor="1" fillcolor="none" xmi.id="uldUKekMNGxR9" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-13254.6" starty="-3871.05"/>
+           <endpoint endx="-13254.6" endy="-3393.05"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uM7DUc0wSFw2i" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uElECc6gRNqzG" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uyVDCMKjTKH4z" usefillcolor="1" fillcolor="none" xmi.id="uYUXzmmXIcJQ8" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-12544.8" starty="-3612.86"/>
+           <endpoint endx="-12544.8" endy="-3393.05"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uEe1ihwmBvXF7" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uM7DUc0wSFw2i" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uMg3jyh2TyoYd" usefillcolor="1" fillcolor="none" xmi.id="uwM7ldkpXb37f" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-13071.9" starty="-3206.05"/>
+           <endpoint endx="-13071.9" endy="-2748.17"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uIHUtLcbCaAT4" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uM7DUc0wSFw2i" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" localid="uxu42QOsKUcDB" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uipkXrxHvnyC3" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-12544.8" starty="-3206.05"/>
+           <endpoint endx="-12544.8" endy="-3002.88"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-12506" showstereotype="1" y="-3047" text="nuevaBala" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="uWBYvceL8bo7t" pretext="+" role="710" width="61" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCvDAwE2lYYf" autoresize="1" height="16"/>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uM7DUc0wSFw2i" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="ulSD5K7kfpcvR" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uunf3Hov5410e" usefillcolor="1" fillcolor="none" xmi.id="uc0CyPo0d0Nqa" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-13544.8" starty="-3533.24"/>
+           <endpoint endx="-13544.8" endy="-3393.05"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uM7DUc0wSFw2i" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uFTcezbXUev6u" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uUbt2VrQB5oxs" usefillcolor="1" fillcolor="none" xmi.id="u2eHJZx7DEd0z" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-13689.8" starty="-3393.05"/>
+           <endpoint endx="-13544.8" endy="-3393.05"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uM7DUc0wSFw2i" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uk5la6rysDisu" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uJI75uMeSpxt9" usefillcolor="1" fillcolor="none" xmi.id="ufoDr1aYyi4d3" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-13712.3" starty="-3206.05"/>
+           <endpoint endx="-13544.8" endy="-3206.05"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="uuseRnaIxsmQH" uniqueid="uppRdJ0lixbyu" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component_View"/>
+    <listitem open="1" type="827" id="Deployment_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="0" type="813" id="uT1Xsow2JaYXi"/>
+     <listitem open="0" type="813" id="up64cRm03xcio">
+      <listitem open="0" type="815" id="uN8MBBteTZFdp"/>
+      <listitem open="0" type="815" id="ufiXmbUvT6rjb"/>
+     </listitem>
+     <listitem open="0" type="813" id="uIHUtLcbCaAT4">
+      <listitem open="0" type="815" id="uVZmP6cFWxTcj"/>
+      <listitem open="0" type="814" id="uo63ILmtrKOWp"/>
+      <listitem open="0" type="814" id="ukdUhJasEYcsx"/>
+      <listitem open="0" type="814" id="upC6QUrXZJsnT"/>
+      <listitem open="0" type="814" id="u0GtMxWnCJHEM"/>
+      <listitem open="0" type="814" id="uMKRABsqcWa6m"/>
+      <listitem open="0" type="814" id="ujwBAr9ohbkcp"/>
+     </listitem>
+     <listitem open="0" type="813" id="u0jtlUHcQIQSU">
+      <listitem open="0" type="815" id="uOsPEfQMcfYYX"/>
+      <listitem open="0" type="815" id="uetSA5KjBpVN6"/>
+      <listitem open="0" type="814" id="uWrEWtP2xcUma"/>
+      <listitem open="0" type="815" id="ut0DGPdklTAyZ"/>
+     </listitem>
+     <listitem open="0" type="813" id="uUZOOqRwLXxxD">
+      <listitem open="0" type="815" id="uhqwms8Zz8fJY"/>
+      <listitem open="0" type="815" id="uUFzd8f3fOi3w"/>
+      <listitem open="0" type="815" id="u1lDa59krfRsG"/>
+      <listitem open="0" type="814" id="uADL0ZXdBhbUd"/>
+      <listitem open="0" type="815" id="uoBZ24S4Q7lt1"/>
+     </listitem>
+     <listitem open="0" type="807" id="uuseRnaIxsmQH" label="class diagram"/>
+     <listitem open="0" type="813" id="uHqarXXiIF8hi">
+      <listitem open="0" type="815" id="udupZBlHaNU0y"/>
+      <listitem open="0" type="815" id="uqZdlSe1hn3wK"/>
+      <listitem open="0" type="815" id="usYLBLWbwXe1r"/>
+      <listitem open="0" type="814" id="ubZ0kXGSKCQdk"/>
+      <listitem open="0" type="814" id="u2N40ZPWtuvcj"/>
+      <listitem open="0" type="814" id="uPgYeA8yg8oxg"/>
+     </listitem>
+     <listitem open="0" type="813" id="umhDv4sdXR2KO">
+      <listitem open="0" type="815" id="uDFA4Q2Z0Hgph"/>
+     </listitem>
+     <listitem open="0" type="813" id="uYApSgwU5aLZm">
+      <listitem open="0" type="815" id="uKVjK5BwTG3GX"/>
+      <listitem open="0" type="815" id="uJROFrR5rQlSn"/>
+      <listitem open="0" type="815" id="uO4Z3PtTQLhXZ"/>
+      <listitem open="0" type="815" id="ud3qVFUnwxU5U"/>
+     </listitem>
+     <listitem open="0" type="813" id="uW8mf2iBTrA5C">
+      <listitem open="0" type="815" id="ucxWHwy2jFfdM"/>
+      <listitem open="0" type="815" id="uccMdUY482HLX"/>
+      <listitem open="0" type="815" id="ugpeCRLBJ5s2e"/>
+      <listitem open="0" type="814" id="uUH9UYel0G25M"/>
+      <listitem open="0" type="814" id="ujE8agZz2z6QI"/>
+      <listitem open="0" type="814" id="udW71sbn4oZzJ"/>
+      <listitem open="0" type="814" id="ugCi6AEwEUgCS"/>
+     </listitem>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="uWQRXcXQ6cctK"/>
+      <listitem open="0" type="829" id="unySwzjO0ItiG"/>
+      <listitem open="0" type="829" id="uJOxDcJggadJW"/>
+      <listitem open="1" type="829" id="uJSKOr9ZQQ5EJ"/>
+      <listitem open="0" type="829" id="uDOPySNMT58C7"/>
+      <listitem open="0" type="829" id="uRJppHdKvcF73"/>
+      <listitem open="0" type="829" id="uQMySGm7G07HW"/>
+      <listitem open="1" type="829" id="uJFLsdjCh0TTR"/>
+      <listitem open="1" type="829" id="uabuY1Sw0noMT"/>
+      <listitem open="0" type="829" id="u8G7Z5fMjziea"/>
+      <listitem open="0" type="829" id="ulsK87OAlFu1U"/>
+      <listitem open="1" type="829" id="uhTkX8Jb0HdNz"/>
+      <listitem open="1" type="829" id="uab0sTIXQ1eYM"/>
+      <listitem open="0" type="829" id="uwwqcuwzkaJbM"/>
+      <listitem open="0" type="829" id="uqtZQkrQ38N8f"/>
+      <listitem open="0" type="829" id="u38Xm1hMPQGYo"/>
+      <listitem open="0" type="829" id="uYKKwrxKf3bDw"/>
+      <listitem open="0" type="829" id="uZKtzLAQS2o0T"/>
+      <listitem open="0" type="829" id="usoBhXGeBNERJ"/>
+      <listitem open="1" type="829" id="uHx6TSwStOmEE"/>
+      <listitem open="0" type="829" id="uLAMYzIxzuVeS"/>
+      <listitem open="0" type="829" id="u3rsK0iJCdCcV"/>
+      <listitem open="0" type="829" id="uQAg19d6B7ghu"/>
+      <listitem open="0" type="829" id="u3dtUFRomWc8X"/>
+      <listitem open="0" type="829" id="uJ05sREv5oVCz"/>
+     </listitem>
+     <listitem open="0" type="813" id="uTfl6NeVhOWtz">
+      <listitem open="0" type="815" id="uA9gC800y6oQp"/>
+     </listitem>
+     <listitem open="0" type="813" id="uEe1ihwmBvXF7">
+      <listitem open="0" type="815" id="ugpr82tjo4LoS"/>
+      <listitem open="0" type="814" id="uuhjTChav5sRm"/>
+      <listitem open="0" type="814" id="umoalt7NzxmK4"/>
+      <listitem open="0" type="814" id="u3HFlpkkM2HXG"/>
+      <listitem open="0" type="814" id="uTRGzEBri8sw4"/>
+      <listitem open="0" type="814" id="uAYoYkiTJkYoC"/>
+      <listitem open="0" type="814" id="uKXxJTlgPXnL8"/>
+      <listitem open="0" type="814" id="uGIuUrXwGDoTM"/>
+      <listitem open="0" type="814" id="uHPBhvz2dMF2w"/>
+      <listitem open="0" type="814" id="u7o91EFHdwGoc"/>
+      <listitem open="0" type="814" id="u63DbY2oS4B2u"/>
+      <listitem open="0" type="814" id="uYrHJDDURLIbJ"/>
+      <listitem open="0" type="814" id="uChVjPv0bi7dm"/>
+      <listitem open="0" type="814" id="uc6p9mnwCLD61"/>
+      <listitem open="0" type="814" id="uLSuvRboqXUop"/>
+      <listitem open="0" type="814" id="u8HwRIvk18pBt"/>
+      <listitem open="0" type="814" id="ugmVVPM6k3Hac"/>
+      <listitem open="0" type="814" id="u3HxZMNVsfmLG"/>
+      <listitem open="0" type="814" id="uSiH1oVxzuwnH"/>
+      <listitem open="0" type="814" id="uVVrgtlsnCIko"/>
+      <listitem open="0" type="814" id="uiQw6m5jENADR"/>
+      <listitem open="0" type="814" id="u9wWN4nIYe5QU"/>
+      <listitem open="0" type="814" id="ua7Eyj38PkTu3"/>
+      <listitem open="0" type="814" id="u47am0yHTTJto"/>
+     </listitem>
+     <listitem open="0" type="813" id="uElECc6gRNqzG">
+      <listitem open="0" type="815" id="u7qlFRWWNYYZ9"/>
+      <listitem open="0" type="814" id="uLx8dVtDPTrDV"/>
+      <listitem open="0" type="814" id="u9uiBAt1ebD6L"/>
+     </listitem>
+     <listitem open="1" type="813" id="u60GPjxct5AJA"/>
+     <listitem open="0" type="813" id="uHQfWq327CkPd">
+      <listitem open="0" type="815" id="uQFKy9g6C3iC9"/>
+      <listitem open="0" type="814" id="ujgclW0IS3Sr3"/>
+      <listitem open="0" type="814" id="uzjUjChUI1nSS"/>
+      <listitem open="0" type="814" id="uD9EPYTIhHn3T"/>
+      <listitem open="0" type="814" id="uficJujwS0wfr"/>
+      <listitem open="0" type="814" id="uANdNUNq1Bvvo"/>
+      <listitem open="0" type="814" id="uzwO1UOuTYLun"/>
+     </listitem>
+     <listitem open="0" type="813" id="uOG81lMnN1MQ3"/>
+     <listitem open="0" type="813" id="uOikxvcI3Dcla">
+      <listitem open="0" type="815" id="uKRg2DyexNwdk"/>
+     </listitem>
+     <listitem open="0" type="813" id="uar9V7ZoajN6C">
+      <listitem open="0" type="815" id="udnEQdJxlelom"/>
+      <listitem open="0" type="814" id="uXrbm3mIW9RZE"/>
+      <listitem open="0" type="814" id="uO1mgy9hsfnPe"/>
+      <listitem open="0" type="815" id="uLaVZ7M7YGJF9"/>
+      <listitem open="0" type="815" id="us5C6npTLyMMn"/>
+      <listitem open="0" type="815" id="uxVq6fmSMc9hV"/>
+      <listitem open="0" type="815" id="uk5GxkqqjJJ5d"/>
+      <listitem open="0" type="814" id="uHBSakbYBEGhZ"/>
+      <listitem open="0" type="814" id="uYiINu4xV5mhv"/>
+      <listitem open="0" type="815" id="u9pTvkzY32Plr"/>
+      <listitem open="0" type="814" id="u2kbxLsOSzsGi"/>
+      <listitem open="0" type="814" id="uzsSlBBR97tB9"/>
+     </listitem>
+     <listitem open="0" type="813" id="uHu8prathFDgM">
+      <listitem open="0" type="815" id="unNmGe2JCMXwo"/>
+      <listitem open="0" type="814" id="uYIbpKchwwzBS"/>
+      <listitem open="0" type="814" id="uC310MUluQU9f"/>
+     </listitem>
+     <listitem open="0" type="813" id="uM7DUc0wSFw2i">
+      <listitem open="0" type="815" id="uNDOtUWx7FNjo"/>
+      <listitem open="0" type="814" id="u2SHmSP941mzV"/>
+      <listitem open="0" type="814" id="urUr9XqEG76fE"/>
+      <listitem open="0" type="814" id="uLN7UZB9aULDB"/>
+      <listitem open="0" type="814" id="upzkvgDUrASYb"/>
+      <listitem open="0" type="814" id="uipkXrxHvnyC3"/>
+      <listitem open="0" type="814" id="u6cF6MCKggsN9"/>
+      <listitem open="0" type="814" id="uG8XJi4weM7XM"/>
+      <listitem open="0" type="814" id="uILLe5AxEU565"/>
+      <listitem open="0" type="814" id="ucyN7BGaF73Ax"/>
+     </listitem>
+     <listitem open="0" type="813" id="ulSD5K7kfpcvR">
+      <listitem open="0" type="815" id="uLaf5RUp59mGM"/>
+      <listitem open="0" type="814" id="uaMD8PCeesHJQ"/>
+      <listitem open="0" type="814" id="uomkstNsng7Js"/>
+      <listitem open="0" type="814" id="ucVTlQ0qUyEXZ"/>
+      <listitem open="0" type="814" id="umHSNC7bWjguB"/>
+      <listitem open="0" type="814" id="uxvyziJ0rWfXq"/>
+     </listitem>
+     <listitem open="0" type="813" id="uFTcezbXUev6u">
+      <listitem open="0" type="815" id="uqeoX4Up97eR9"/>
+      <listitem open="0" type="814" id="uVay73w2gZepk"/>
+      <listitem open="0" type="814" id="uIAMw17oBqqZn"/>
+      <listitem open="0" type="814" id="uZPMTObOLsQPQ"/>
+      <listitem open="0" type="814" id="utlWdWxKXOU4S"/>
+     </listitem>
+     <listitem open="0" type="813" id="uk5la6rysDisu">
+      <listitem open="0" type="815" id="u5K45ApZjkgBJ"/>
+      <listitem open="0" type="814" id="u4JM1Kcbc4Jdb"/>
+      <listitem open="0" type="814" id="ux7O3OoJAaO7m"/>
+     </listitem>
+     <listitem open="0" type="818" id="uJEypwvBNUCap">
+      <listitem open="0" type="813" id="ucrRpzgch3S53">
+       <listitem open="0" type="813" id="u0G4Qb7YZQSwh"/>
+      </listitem>
+      <listitem open="0" type="818" id="uhtM2WeJOLaao">
+       <listitem open="0" type="813" id="uZhrS14LPrPLz"/>
+      </listitem>
+     </listitem>
+     <listitem open="0" type="813" id="uztoUk9ikAvn0">
+      <listitem open="0" type="813" id="ua2WopdPDmV4l">
+       <listitem open="0" type="813" id="ussImOTSYln2B"/>
+      </listitem>
+      <listitem open="0" type="813" id="uuq8WhIACpDzW">
+       <listitem open="0" type="813" id="urgKw3pGn0xAh"/>
+      </listitem>
+      <listitem open="0" type="813" id="uRat76wi2FNfy">
+       <listitem open="0" type="813" id="ujzDRdxm4M7Sh"/>
+       <listitem open="0" type="813" id="uJqGNFqLLhSOP"/>
+      </listitem>
+     </listitem>
+     <listitem open="0" type="813" id="uUBlOGN3pUkSn">
+      <listitem open="0" type="813" id="uzwl4CHGwj6Gh"/>
+      <listitem open="0" type="813" id="uKLATq3a3OtGw">
+       <listitem open="0" type="813" id="uwdouMWs5nkqd"/>
+      </listitem>
+      <listitem open="0" type="813" id="umRCUmv1RNIer">
+       <listitem open="0" type="813" id="u2N67tzYQmzA5"/>
+      </listitem>
+      <listitem open="0" type="813" id="uy6Y6QlpHyznh">
+       <listitem open="0" type="813" id="u56pXAq9r66TJ"/>
+       <listitem open="0" type="813" id="up9aomR5dfEMv"/>
+       <listitem open="0" type="813" id="uC4NyE6LGv8qs"/>
+      </listitem>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="802" id="Use_Case_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="Python">
+    <sourcecode value="pass&#xa;" id="uN8MBBteTZFdp"/>
+    <sourcecode value="pass&#xa;" id="ufiXmbUvT6rjb"/>
+    <sourcecode value="''';Descripcion:&#xa;  Constructor de la clase entidad&#xa;  Parametros:&#xa;    posx(int):posicion en x para el inicio de la entidad&#xa;    posy(int):posicion en y para el inicio de la entidad&#xa;    ubicacionArchivo(string):ubicacion en la que se obtiene la imagen principal&#xa;    nombreArchivo(string):nombre de la imagen inicial&#xa;    Retorno:&#xa;      ''';pygame.sprite.Sprite.__init__(self)&#xa;      self.imageDerecha=pg.image.load(os.path.join(ubicacionArchivo,nombreArchivo))&#xa;      self.image=pg.image.load(os.path.join(ubicacionArchivo,nombreArchivo))&#xa;      self.imageIzquierda=pygame.transform.flip(self.imageDerecha,True,False)&#xa;      self.imageArriba=pygame.transform.rotate(self.imageDerecha,90)&#xa;      self.imageAbajo=pygame.transform.rotate(self.imageDerecha,-90)&#xa;      self.image=self.imageDerecha&#xa;      self.rect=self.image.get_rect()&#xa;      self.rect.x=posx&#xa;      self.rect.y=posy&#xa;      self.numeroAnimacion=0&#xa;      self.velocidadAnimacion=3&#xa;      self.cantAnimacionMuerte=0&#xa;&#xa;    def agregarAnimacionMovimiento(self,animacionNueva):&#xa;      ''';Descripcion:&#xa;        Agrega un vector con la animaciÃ³n de movimiento a la entidad&#xa;        Parametros:&#xa;          animacionNueva(vector):Vector con las animaiones de movimiento&#xa;          Retorno:&#xa;            ''';self.animacionMovimiento=animacionNueva&#xa;            self.animacionActivada=True&#xa;&#xa;          def agregarAnimacionMuerte(self,animacionNueva):&#xa;            ''';Descripcion:&#xa;              Agrega un vector con la animaciÃ³n de muerte a la entidad&#xa;              Parametros:&#xa;                animacionNueva(vector):Vector con las animaiones de muerte&#xa;                Retorno:&#xa;                  ''';self.animacionMuerte=animacionNueva&#xa;                  self.animacionActivada=True&#xa;                  self.eliminar=True&#xa;&#xa;                def cambiarAnimacionMuerte(self):&#xa;                  ''';DescriciÃ³n:&#xa;                    Cambia la animaciÃ³n utilizada actualmente por la entidad por la animaciÃ³n de muerte&#xa;                    Parametros:&#xa;                      Retorno:&#xa;                        ''';self.animacionActual=self.animacionMuerte&#xa;                        self.tamanoAnimacionActual=len(self.animacionActual)&#xa;                        self.numeroAnimacion=0&#xa;                        self.contadorAnimacion=0&#xa;&#xa;                      def cambiarAnimacionMovimiento(self):&#xa;                        ''';Descripcion:&#xa;                          Cambia la animaciÃ³n utilizada actualmente por la entidad por la animaciÃ³n de movimiento&#xa;                          Parametros:&#xa;                            Retorno:&#xa;                              ''';self.animacionActual=self.animacionMovimiento&#xa;                              self.tamanoAnimacionActual=len(self.animacionActual)&#xa;                              self.numeroAnimacion=0&#xa;                              self.contadorAnimacion=0&#xa;&#xa;                            def cambiarVelocidadAnimacion(self,tiempo):&#xa;                              ''';Descripcion:&#xa;                                Cambia la velocidad con la que transcurre la animaciÃ³n en la entidad&#xa;                                Parametros:&#xa;                                  tiempo(int):Indica la velocidad con la que la animaciÃ³n del personaje transcurre&#xa;                                  Retorno:&#xa;                                    ''';self.velocidadAnimacion=tiempo&#xa;&#xa;                                  def actualizarImagen(self):&#xa;                                    ''';DescriciÃ³n:&#xa;                                      MÃ©todo que se encarga de actualizar la imagen de animaciÃ³n de la entidad&#xa;                                      Parametros:&#xa;                                        Retorno:&#xa;                                          ''';if self.animacionActivada==True:&#xa;                                            if self.contadorAnimacion>self.velocidadAnimacion:&#xa;                                              self.contadorAnimacion=0&#xa;                                              self.image=self.animacionActual[self.numeroAnimacion]&#xa;                                              self.numeroAnimacion=self.numeroAnimacion+1&#xa;                                              if self.numeroAnimacion>=self.tamanoAnimacionActual:&#xa;                                                self.numeroAnimacion=0&#xa;&#xa;                                              if self.eliminar==True:&#xa;                                                self.morir()&#xa;&#xa;&#xa;                                            else:&#xa;                                              self.contadorAnimacion=self.contadorAnimacion+1&#xa;&#xa;&#xa;&#xa;                                        def getRectX(self):&#xa;                                          ''';DescriciÃ³n:&#xa;                                            Retorna la posiciÃ³n en x de la entidad&#xa;                                            Parametros:&#xa;                                              Retorno:&#xa;                                                self.rect.x:Retorna la posiciÃ³n actual en x&#xa;                                                ''';return self.rect.x&#xa;&#xa;                                              def getRectY(self):&#xa;                                                ''';DescriciÃ³n:&#xa;                                                  Retorna la posiciÃ³n en y de la entidad&#xa;                                                  Parametros:&#xa;                                                    Retorno:&#xa;                                                      self.rect.y:Retorna la posiciÃ³n actual en y&#xa;                                                      ''';return self.rect.y&#xa;&#xa;                                                    def getImage(self):&#xa;                                                      ''';Descripcion:&#xa;                                                        Retorna la imagen actual de la entidad&#xa;                                                        Parametros:&#xa;                                                          Retorno:&#xa;                                                            self.image:Retorna la imagen actual de la entidad&#xa;                                                            ''';return self.image&#xa;&#xa;                                                          def morir(self):&#xa;                                                            ''';Descripcion:&#xa;                                                              MÃ©todo que elimina la entidad de todos los grupos de sprites&#xa;                                                              Parametros:&#xa;                                                                Retorno:&#xa;                                                                  ''';self.kill()&#xa;&#xa;                                                                def update(self):&#xa;                                                                  ''';Descripcion:&#xa;                                                                    MÃ©todo que actualiza el estado de la entidad&#xa;                                                                    Parametros:&#xa;                                                                      Retorno:&#xa;                                                                        ''';pass&#xa;&#xa;                                                                      def colisionConJugador(self,jugador):&#xa;                                                                        pass&#xa;&#xa;                                                                      def colisionBala(self,bala):&#xa;                                                                        pass&#xa;" id="ugpr82tjo4LoS"/>
+    <sourcecode value="'''Inicialza la bala con movimiento;Parametros:&#xa;  posx(int):posicion x para el rectangulo de la bala&#xa;  posy(int):posicion y para el rectangulo de la bala&#xa;  imagenUsuario(imagen):imagen del usuario que representa la bala en la pantalla&#xa;  velocidadBala(int):velocidada en que la bala se mueve en la pantalla&#xa;  Retorno:&#xa;    void&#xa;    ''';Entidad.__init__(self,posx,posy,&quot;&quot;,imagenUsuario)&#xa;    pg.sprite.Sprite.__init__(self)&#xa;    self.velocidadDisparo=velocidadBala&#xa;    self.rect.top=posy&#xa;    self.rect.left=posx&#xa;    self.rotacion=rotacion&#xa;    if self.rotacion==0:&#xa;      self.image=self.imageDerecha&#xa;&#xa;    elif self.rotacion==1:&#xa;      self.image=self.imageIzquierda&#xa;&#xa;    elif self.rotacion==2:&#xa;      self.image=self.imageAbajo&#xa;&#xa;    elif self.rotacion==3:&#xa;      self.image=self.imageArriba&#xa;&#xa;&#xa;  def trayectoria(self):&#xa;    '''Actauliza la posicion de la bala para que esta se meuva;Parametros:&#xa;      N/A&#xa;      Retorna:&#xa;        void&#xa;        ''';if self.rotacion==0:&#xa;          self.rect.left=self.rect.left+self.velocidadDisparo&#xa;&#xa;        elif self.rotacion==1:&#xa;          self.rect.left=self.rect.left-self.velocidadDisparo&#xa;&#xa;        elif self.rotacion==2:&#xa;          self.rect.top=self.rect.top+self.velocidadDisparo&#xa;&#xa;        elif self.rotacion==3:&#xa;          self.rect.top=self.rect.top-self.velocidadDisparo&#xa;&#xa;&#xa;      def update(self):&#xa;        self.trayectoria()&#xa;&#xa;&#xa;    class balaSinMovimieto(bala):&#xa;      '''Crea una bala que no tiene movimiento'''&#xa;      def __init__(self,posx,posy,imagenUsuario):&#xa;        '''Inicializa la bala sin movimiento;posx(int):posicion en x para el rectangulo de la bala&#xa;        posy(int):posicion en y para el rectangulo de la bala&#xa;        imagenUsuario(imagen):imagen del usuario que representa la bala en la panatlla&#xa;        ''';pg.sprite.Sprite.__init__(self)&#xa;        self.imagenUsuario=imagenUsuario&#xa;        self.rect=self.imagenUsuario.get_rect()&#xa;        self.rect.top=posy&#xa;        self.rect.left=posx" id="uVZmP6cFWxTcj"/>
+    <sourcecode value="super().__init__(posx,posy,col,fila,tamano,nombre,ubicacionArchivo,nombreArchivo)&#xa;self.resistencia=resistencia&#xa;" id="uOsPEfQMcfYYX"/>
+    <sourcecode value="'''Retorna la resistencia del bloque destructible actual'''&#xa;return self.resistencia&#xa;" id="uetSA5KjBpVN6"/>
+    <sourcecode value="'''Asigna un nuevo valor a la resistencia del bloque actual;Parametros:&#xa;  nuevaResistencia(int):Valor de la nueva resistencia que se le quiere asignar al bloque actual''';self.resistencia=nuevaResistencia&#xa;&#xa;def colisionConJugador(self,jugador):&#xa;  self.morir()" id="ut0DGPdklTAyZ"/>
+    <sourcecode value="Entidad.__init__(self,posx,posy,ubicacionArchivo,nombreArchivo)&#xa;self.columna=col&#xa;self.fila=fila&#xa;self.TamanoMax=tamano&#xa;self.nombre=nombre&#xa;self.ubicacionArchivo=ubicacionArchivo&#xa;self.nombreArchivo=nombreArchivo&#xa;" id="udnEQdJxlelom"/>
+    <sourcecode value="'''Retorna el nombre del objetoLaberinto actual'''&#xa;return self.nombre&#xa;" id="uxVq6fmSMc9hV"/>
+    <sourcecode value="'''Retorna el tamaÃ±o del objetoLaberinto actual'''&#xa;return self.TamanoMax&#xa;" id="uk5GxkqqjJJ5d"/>
+    <sourcecode value="'''Retorna la columna del objetoLaberinto actual en la matriz de su laberinto correspondiente'''&#xa;return self.columna&#xa;" id="uLaVZ7M7YGJF9"/>
+    <sourcecode value="'''Retorna la fila del objetoLaberinto actual en la matriz de su laberinto correspondiente'''&#xa;return self.fila&#xa;" id="us5C6npTLyMMn"/>
+    <sourcecode value="'''Asigna un nuevo valor de fila para el objetoLaberinto actual en la matriz de su laberinto correspondiente;Parametros:&#xa;  nuevaFila(int):Valor de la nueva fila''';self.fila=nuevaFila&#xa;&#xa;def setCol(self,nuevaCol):&#xa;  '''Asigna un nuevo valor de columna para el objetoLaberinto actual en la matriz de su laberinto correspondiente;Parametros:&#xa;    nuevaCol(int):Valor de la nueva columna''';self.columna=nuevaCol&#xa;&#xa;  def setNombre(self,nuevoNombre):&#xa;    '''Asigna un nuevo nombre al objetoLaberinto actual;Parametros:&#xa;      nuevoNombre(string):Nuevo nombre del objetoLaberinto''';self.nombre=nuevoNombre" id="u9pTvkzY32Plr"/>
+    <sourcecode value="super().__init__(posx,posy,col,fila,tamano,nombre,ubicacionArchivo,nombreArchivo)&#xa;self.pasable=False&#xa;" id="uhqwms8Zz8fJY"/>
+    <sourcecode value="return self.pasable&#xa;" id="u1lDa59krfRsG"/>
+    <sourcecode value="self.pasable=nuevoPasable&#xa;" id="uoBZ24S4Q7lt1"/>
+    <sourcecode value="if self.getnombre()==&quot;bloqueVacio&quot;or self.getnombre()==&quot;Poder&quot;:&#xa;  pass&#xa;&#xa;else:&#xa;  rotacion=jugador.getRotacion()&#xa;  if rotacion==0:&#xa;    jugador.move(jugador.x-1,jugador.y)&#xa;&#xa;  if rotacion==1:&#xa;    jugador.move(jugador.x+1,jugador.y)&#xa;&#xa;  if rotacion==2:&#xa;    jugador.move(jugador.x,jugador.y-1)&#xa;&#xa;  if rotacion==3:&#xa;    jugador.move(jugador.x,jugador.y+1)&#xa;&#xa;  pass" id="uUFzd8f3fOi3w"/>
+    <sourcecode value="super().__init__()&#xa;self.numCol=0&#xa;self.numFila=0&#xa;self.tamanoCuadro=0&#xa;" id="udupZBlHaNU0y"/>
+    <sourcecode value="Laberinto:Retorna el laberinto creado con los parÃ¡metros dados.&#xa;''';pass&#xa;" id="uqZdlSe1hn3wK"/>
+    <sourcecode value="'''Crea un objetivo en el laberinto;Parametros:&#xa;  posx(int):Posicion en x del objetivo&#xa;  posy(int):Posicion en y del objetivo&#xa;  col(int):NÃºmero de columna del objetivo en la matriz del laberinto&#xa;  fila(int):NÃºmero de fila del objetivo en la matriz del laberinto&#xa;  tamano(int):Tamano del bloque del objetivo&#xa;  nombre(string):Nombre del objetivo&#xa;  ubicacionArchivo(string):Ubicacion en donde se encuentra la imagen del objetivo&#xa;  nombreArchivo(string):Nombre de la imagen del objetivo&#xa;  Retorno:&#xa;    ObjetoLaberinto:Retorna un objeto laberinto que representa el objetivo creado con los parametros dados&#xa;    ''';pass&#xa;&#xa;  @abstractmethod&#xa;  def crearBloque(self,posx,posy,col,fila,tamano,nombre,ubicacionArchivo,nombreArchivo,resistencia=0,destructible=False):&#xa;    '''Crea un bloque en el laberinto;Parametros:&#xa;      posx(int):PosiciÃ³n en x del bloque&#xa;      posy(int):PosiciÃ³n en y del bloque&#xa;      col(int):Numero de columna del bloque en la matriz del laberinto&#xa;      fila(int):Numero de fila del bloque en la matriz del laberinto&#xa;      tamano(int):Tamano del bloque&#xa;      nombre(string):Nombre del bloque&#xa;      ubicacionArchivo(string):Ubicacion en donde se encuentra la imagen del bloque&#xa;      nombreArchivo(string):Nombre de la imagen del bloque&#xa;      resistencia(int):[Default=0]Indica la resistencia en caso de ser un bloque destructible&#xa;      destructible(bool):[Default=False]Indica si es un bloque destructible&#xa;      Retorno:&#xa;        BloqueDestructibe-BloqueIndestructible:Puede retornar un BloqueDestructible o un BloqueIndestructible segÃºn los parametros dados&#xa;        ''';pass" id="usYLBLWbwXe1r"/>
+    <sourcecode value="'''Crea un nuevo bloque en el laberinto actual;Parametros:&#xa;  posx(int):PosiciÃ³n en x del bloque&#xa;  posy(int):PosiciÃ³n en y del bloque&#xa;  col(int):NÃºmero de columna del bloque en la matriz del laberinto&#xa;  fila(int):NÃºmero de fila del bloque en la matriz del laberinto&#xa;  tamano(int):Tamano del bloque&#xa;  nombre(string):Nombre del bloque&#xa;  ubicacionArchivo(string):UbicaciÃ³n en donde se encuentra la imagen del bloque&#xa;  nombreArchivo(string):Nombre de la imagen del bloque&#xa;  resistencia(int):[Default=0]Indica la resistencia en caso de ser un bloque destructible&#xa;  destructible(bool):[Default=False]Indica si es un bloque destructible&#xa;  Retorno:&#xa;    BloqueDestructibe-BloqueIndestructible:Puede retornar un BloqueDestructible o un BloqueIndestructible segÃºn los parametros dados&#xa;    ''';if destructible:&#xa;      bloque=BloqueDestructible(posx,posy,col,fila,tamano,nombre,resistencia,ubicacionArchivo,nombreArchivo)&#xa;&#xa;    else:&#xa;      bloque=BloqueIndestructible(posx,posy,col,fila,tamano,nombre,ubicacionArchivo,nombreArchivo)&#xa;&#xa;    return bloque&#xa;&#xa;  def crearObjetivo(self,posx,posy,col,fila,tamano,nombre,ubicacionArchivo,nombreArchivo):&#xa;    '''Crea un nuevo Objetivo en el laberinto;Parametros:&#xa;      posx(int):PosiciÃ³n en x del objetivo&#xa;      posy(int):PosiciÃ³n en y del objetivo&#xa;      col(int):NÃºmero de columna del objetivo en la matriz del laberinto&#xa;      fila(int):NÃºmero de fila del objetivo en la matriz del laberinto&#xa;      tamano(int):Tamano del bloque del objetivo&#xa;      nombre(string):Nombre del objetivo&#xa;      ubicacionArchivo(string):UbicaciÃ³n en donde se encuentra la imagen del objetivo&#xa;      nombreArchivo(string):Nombre de la imagen del objetivo&#xa;      Retorno:&#xa;        ObjetoLaberinto:Retorna un objeto laberinto que representa el objetivo creado con los parametros dados&#xa;        ''';objetivo=Objetivo(posx,posy,col,fila,tamano,nombre,ubicacionArchivo,nombreArchivo)&#xa;        return objetivo&#xa;&#xa;      def crearLaberinto(self,cols,filas,tamanoBloque,bloqueDes,bloqueInd,bloqueVac,objetivo,poder,nivel='nivel1'):&#xa;        '''Crea un laberinto aleatorio;Parametros:&#xa;        cols(int):NÃºmero de columnas de la matriz del laberinto&#xa;        filas(int):NÃºmero de filas de la matriz del laberinto&#xa;        tamanoBloque(int):TamaÃ±o de cada uno de los bloques&#xa;        bloqueDes(BloqueDestructible):Bloque destructible del laberinto&#xa;        bloqueInd(BloqueIndestructible):Bloque indestructible del laberinto&#xa;        bloqueVac(BloqueIndestructible):Bloque vacÃ­o del laberinto&#xa;        objetivo(ObjetoLaberinto):Objetivo del laberinto&#xa;        poder(ObjetoLaberinto):Bloque de poder para el personaje&#xa;        nivel(string):[Default=nivel1]Indica la direcciÃ³n del archivo de texto para generar el laberinto.&#xa;        Retorno:&#xa;          Laberinto:Retorna el laberinto creado con los parÃ¡metros dados.&#xa;          ''';self.numCol=cols&#xa;          self.numFila=filas&#xa;          self.tamanoCuadro=tamanoBloque&#xa;          laberinto=Laberinto(self.numFila,self.numCol,self.tamanoCuadro)&#xa;          laberinto.rellenarLaberinto(bloqueDes)&#xa;          for fila in range(laberinto.filas):&#xa;            for col in range(laberinto.columnas):&#xa;              patronID=random.randint(1,30)&#xa;              if patronID==1 and col>1 and col&lt;laberinto.columnas-2:&#xa;                bloqueVacio=self.crearBloque(0,0,col,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio2=self.crearBloque(0,0,col-1,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio3=self.crearBloque(0,0,col-2,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio4=self.crearBloque(0,0,col+1,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio5=self.crearBloque(0,0,col+2,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                laberinto.cambiarMatriz(bloqueVacio,fila,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio2,fila,col-1)&#xa;                laberinto.cambiarMatriz(bloqueVacio3,fila,col-2)&#xa;                laberinto.cambiarMatriz(bloqueVacio4,fila,col+1)&#xa;                laberinto.cambiarMatriz(bloqueVacio5,fila,col+2)&#xa;&#xa;              elif patronID==2 and fila>1 and fila&lt;laberinto.filas-2:&#xa;                bloqueVacio=self.crearBloque(0,0,col,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio2=self.crearBloque(0,0,col,fila-1,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio3=self.crearBloque(0,0,col,fila-2,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio4=self.crearBloque(0,0,col,fila+1,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio5=self.crearBloque(0,0,col,fila+2,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                laberinto.cambiarMatriz(bloqueVacio,fila,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio2,fila-1,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio3,fila-2,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio4,fila+1,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio5,fila+2,col)&#xa;&#xa;              elif patronID==3 and col!=0 and fila!=0 and col&lt;laberinto.columnas-1 and fila&lt;laberinto.filas-1:&#xa;                bloqueVacio=self.crearBloque(0,0,col,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio2=self.crearBloque(0,0,col+1,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio3=self.crearBloque(0,0,col-1,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio4=self.crearBloque(0,0,col,fila+1,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio5=self.crearBloque(0,0,col,fila-1,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                laberinto.cambiarMatriz(bloqueVacio,fila,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio2,fila,col+1)&#xa;                laberinto.cambiarMatriz(bloqueVacio3,fila,col-1)&#xa;                laberinto.cambiarMatriz(bloqueVacio4,fila+1,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio5,fila-1,col)&#xa;&#xa;              elif patronID==4 and fila>1 and col&lt;laberinto.columnas-1:&#xa;                bloqueVacio=self.crearBloque(0,0,col,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio2=self.crearBloque(0,0,col+1,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio4=self.crearBloque(0,0,col,fila-2,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio5=self.crearBloque(0,0,col,fila-1,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                laberinto.cambiarMatriz(bloqueVacio,fila,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio2,fila,col+1)&#xa;                laberinto.cambiarMatriz(bloqueVacio4,fila-1,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio5,fila-2,col)&#xa;&#xa;              elif patronID==5 and col>1 and fila&lt;laberinto.filas-2:&#xa;                bloqueVacio=self.crearBloque(0,0,col,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio2=self.crearBloque(0,0,col-1,fila,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio4=self.crearBloque(0,0,col,fila+2,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                bloqueVacio5=self.crearBloque(0,0,col,fila+1,self.tamanoCuadro,&quot;bloqueVacio&quot;,bloqueVac.ubicacionArchivo,bloqueVac.nombreArchivo)&#xa;                laberinto.cambiarMatriz(bloqueVacio,fila,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio2,fila,col-1)&#xa;                laberinto.cambiarMatriz(bloqueVacio4,fila+1,col)&#xa;                laberinto.cambiarMatriz(bloqueVacio5,fila+2,col)&#xa;&#xa;&#xa;&#xa;          for fila in range(laberinto.filas):&#xa;            for col in range(laberinto.columnas):&#xa;              cambiar=random.randint(1,20)&#xa;              if cambiar&lt;5 and laberinto.matriz[fila][col].getnombre()!=&quot;bloqueVacio&quot;:&#xa;                laberinto.matriz[fila][col].image=bloqueInd.image&#xa;&#xa;&#xa;&#xa;          objetoCol=0&#xa;          objetoFila=0&#xa;          valido=False&#xa;          while not valido:&#xa;            objetoCol=random.randint(3,laberinto.columnas-1)&#xa;            objetoFila=random.randint(3,laberinto.filas-1)&#xa;            if laberinto.matriz[objetoFila][objetoCol].getnombre()!=&quot;bloqueVacio&quot;:&#xa;              laberinto.matriz[objetoFila][objetoCol].image=objetivo.image&#xa;              laberinto.matriz[objetoFila][objetoCol].setNombre(&quot;Objetivo&quot;)&#xa;              valido=True&#xa;&#xa;&#xa;          poderCol=0&#xa;          poderFila=0&#xa;          valido=False&#xa;          while not valido:&#xa;            poderCol=random.randint(3,laberinto.columnas-1)&#xa;            poderFila=random.randint(3,laberinto.filas-1)&#xa;            if laberinto.matriz[poderFila][poderCol].getnombre()==&quot;bloqueVacio&quot;:&#xa;              laberinto.matriz[poderFila][poderCol].image=poder.image&#xa;              laberinto.matriz[poderFila][poderCol].setNombre(&quot;Poder&quot;)&#xa;              valido=True&#xa;&#xa;&#xa;          return laberinto" id="uDFA4Q2Z0Hgph"/>
+    <sourcecode value="'''Inicializa las variables del controlador'''&#xa;pygame.init()&#xa;self.entidades=pygame.sprite.Group()&#xa;self.ventanaJuego=None&#xa;self.laberinto=None&#xa;self.jugador=None&#xa;" id="ucxWHwy2jFfdM"/>
+    <sourcecode value="pass&#xa;" id="ugpeCRLBJ5s2e"/>
+    <sourcecode value="'''Inicia el laberinto del Controlador;Parametros:&#xa;  filas(int):Cantidad de filas del laberinto que se quiere crear&#xa;  columnas(int):Cantidad de columnas del laberinto que se quiere crear&#xa;  tamanoCuadro(int):Tamano de los cuadros que conforman el laberinto&#xa;  ''';self.laberinto=Laberinto(filas,columnas,tamanoCuadro)&#xa;&#xa;def setLaberinto(self,laberinto):&#xa;  '''Asigna un nuevo laberinto al Controlador;Parametros:&#xa;    laberinto(laberinto):Es el nuevo laberinto que se le quiere asignar al Controlador''';self.laberinto=laberinto&#xa;&#xa;  def getLaberinto(self):&#xa;    '''Retorna el laberinto del controlador'''&#xa;    return self.laberinto&#xa;&#xa;  def getEntidades(self):&#xa;    '''Retorna el grupo de entidades del Controlador'''&#xa;    return self.entidades&#xa;&#xa;  def crearVentanaJuego(self,anchoVentana,alturaVentana):&#xa;    '''Inicializa la ventana del juego;Parametros:&#xa;      anchoVentana(int):Ancho de la ventana de juego&#xa;      alturaVentana(int):Ancho de la ventana de juego&#xa;      ''';self.ventanaJuego=PantallaJuego(anchoVentana,alturaVentana)&#xa;&#xa;    def agregarEntidad(self,entidadNueva):&#xa;      '''Agrega una entidad al grupo de entidades del Controlador'''&#xa;      self.entidades.add(entidadNueva)&#xa;&#xa;    def crearEnemigo(self,posx,posy,velX,velY,ubicacionArchivo,nombreArchivo):&#xa;      '''Crea un nuevo enemigo;Parametros:&#xa;        posx(int):Posicion en el eje x del enemigo&#xa;        posy(int):Posicion en el eje y del enemigo&#xa;        vida(int):Vida del enemigo&#xa;        velX(int):Velocidad en el eje x del enemigo&#xa;        velY(int):Velocidad en el eje y del enemigo&#xa;        ubicacionArchivo(string):Ubicacion de la imagen del enemigo&#xa;        nombreArchivo(string):Nombre de la imagen del enemigo&#xa;        Retorno:&#xa;          enemigoNuevo(Enemigo):Retorna el nuevo enemigo&#xa;          ''';enemigoNuevo=Enemigo(posx,posy,velX,velY,ubicacionArchivo,nombreArchivo,self.ventanaJuego.ancho,self.ventanaJuego.altura)&#xa;          self.agregarEntidad(enemigoNuevo)&#xa;          return enemigoNuevo&#xa;&#xa;        def crearJugador(self,posx,posy,vida,velX,velY,ubicacionArchivo,nombreArchivo,imagenBala):&#xa;          '''Crea un nuevo jugador;Parametros:&#xa;            posx(int):Posicion en el eje x del jugador&#xa;            posy(int):Posicion en el eje y del jugador&#xa;            vida(int):Vida del jugador&#xa;            velX(int):Velocidad en el eje x del jugador&#xa;            velY(int):Velocidad en el eje y del jugador&#xa;            ubicacionArchivo(string):Ubicacion de la imagen del jugador&#xa;            nombreArchivo(string):Nombre de la imagen del jugador&#xa;            Retorno:&#xa;              jugador(Jugador):Retorna el nuevo jugador&#xa;              ''';self.jugador=Jugador(posx,posy,vida,velX,velY,ubicacionArchivo,nombreArchivo,self.ventanaJuego.ancho,self.ventanaJuego.altura,imagenBala)&#xa;              self.agregarEntidad(self.jugador)&#xa;              return self.jugador&#xa;&#xa;            def crearEnemigo(self,posx,posy,vida,velX,velY,ubicacionArchivo,nombreArchivo,imagenBala):&#xa;              enemigoNuevo=Enemigo(posx,posy,vida,velX,velY,ubicacionArchivo,nombreArchivo,self.ventanaJuego.ancho,self.ventanaJuego.altura,imagenBala)&#xa;              self.agregarEntidad(enemigoNuevo)&#xa;              return enemigoNuevo&#xa;&#xa;            def eliminarEntidad(entidad):&#xa;              '''Elimina una entidad;Parametros:&#xa;                entidad(entidad):Entidad que se quiere eliminar''';entidad.morir()&#xa;&#xa;              def ejecutarJuego(self):&#xa;                '''Contiene el ciclo principal del juego'''&#xa;                if self.ventanaJuego is not None:&#xa;                  done=False&#xa;                  while not done:&#xa;                  for event in pygame.event.get():&#xa;                    if event.type==pygame.QUIT:&#xa;                      done=True&#xa;                      pygame.quit()&#xa;                      sys.exit(0)&#xa;&#xa;&#xa;                  self.ventanaJuego.ventana.fill((0,0,1))&#xa;                  if(self.laberinto is not None):&#xa;                    self.ventanaJuego.dibujarElementos(self.laberinto.objetos)&#xa;&#xa;                  self.ventanaJuego.dibujarElementos(self.entidades)&#xa;                  self.ventanaJuego.actualizarPantalla()'''revisa las colisiones entre el jugador y el laberinto'''for entidad in self.laberinto.objetos:&#xa;                    if entidad!=self.jugador:&#xa;                      if entidad.rect.colliderect(self.jugador)==True:&#xa;                        entidad.colisionConJugador(self.jugador)&#xa;&#xa;&#xa;&#xa;                  '''revisa las coliones entre el jugador y las demas entidades'''&#xa;                  for entidad in self.entidades:&#xa;                    if entidad!=self.jugador:&#xa;                      if entidad.rect.colliderect(self.jugador)==True:&#xa;                        entidad.colisionConJugador(self.jugador)&#xa;&#xa;&#xa;&#xa;                  for entidad in self.entidades:&#xa;                    if type(entidad)is balaMovimiento:&#xa;                      for entidad2 in self.entidades:&#xa;                        if entidad2.rect.colliderect(entidad)==True:&#xa;                          entidad2.colisionBala(entidad)&#xa;&#xa;&#xa;&#xa;&#xa;                  self.entidades.update()&#xa;&#xa;                else:&#xa;                  print(&quot;Error: No existe una ventana para el juego.&quot;)" id="uccMdUY482HLX"/>
+    <sourcecode value="''';Descripcion:&#xa;  Constructor de la clase Enemigo&#xa;  Parametros:&#xa;    posx(int):posicion en x para el inicio del personaje&#xa;    posy(int):posicion en y para el inicio del personaje&#xa;    valor(int):vida inicial del personaje&#xa;    velX(int):valocidad del movimiento en x&#xa;    velY(int):velocidad del moviemiento en y&#xa;    ubicacionArchivo(string):ubicacion en la que se obtiene la imagen principal&#xa;    nombreArchivo(string):nombre de la imagen inicial&#xa;    ancho(int):ancho de la ventana en la que se mueve&#xa;    largo(int):largo de la ventana en la que ser mueve&#xa;    Retorno:&#xa;      ''';self.cambioX=1&#xa;      Personaje.__init__(self,posx,posy,valor,velX,velY,ubicacionArchivo,nombreArchivo,ancho,largo,imagenBala)&#xa;&#xa;    def update(self):&#xa;      self.move(self.cambioX,0)&#xa;      if self.rect.x>=self.largoVentana-51:&#xa;        self.cambioX=-1&#xa;&#xa;      if self.rect.x&lt;=0:&#xa;        self.cambioX=1&#xa;&#xa;&#xa;    def colisionConJugador(self,jugador):&#xa;      jugador.vida=jugador.vida-10&#xa;&#xa;    def colisionBala(self,bala):&#xa;    bala.morir()self.morir(" id="uA9gC800y6oQp"/>
+    <sourcecode value="''';Descripcion:&#xa;  Constructor de la clase personaje&#xa;  Parametros:&#xa;    posx(int):posicion en x para el inicio del personaje&#xa;    posy(int):posicion en y para el inicio del personaje&#xa;    valor(int):vida inicial del personaje&#xa;    velX(int):valocidad del movimiento en x&#xa;    velY(int):velocidad del moviemiento en y&#xa;    ubicacionArchivo(string):ubicacion en la que se obtiene la imagen principal&#xa;    nombreArchivo(string):nombre de la imagen inicial&#xa;    ancho(int):ancho de la ventana en la que se mueve&#xa;    largo(int):largo de la ventana en la que ser mueve&#xa;    Retorno:&#xa;      ''';Entidad.__init__(self,posx,posy,ubicacionArchivo,nombreArchivo)&#xa;      self.vida=valor&#xa;      self.velocidadX=velX&#xa;      self.velocidadY=velY&#xa;      self.anchoVentana=ancho&#xa;      self.largoVentana=largo&#xa;      self.imagenBala=imagenBala&#xa;&#xa;    def definirVida(self,valor):&#xa;      ''';Descripcion:&#xa;        Asigna nueva vida al personaje&#xa;        ParÃ¡metros:&#xa;          valor(int):nueva vida del personaje&#xa;          Retorno:&#xa;            ''';self.vida=valor&#xa;&#xa;          def getVida(self):&#xa;            ''';Descripcion:&#xa;              Retorna la vida del personaje&#xa;              ParÃ¡metros:&#xa;                Retorno:&#xa;                  self.vida:vida actual del personaje&#xa;                  ''';return self.vida&#xa;&#xa;                def resteVida(self,cont):&#xa;                  ''';Descripcion:&#xa;                    Resta vida al personaje&#xa;                    ParÃ¡metros:&#xa;                      cont(int):cantidad de vida a restar&#xa;                      Retorno:&#xa;                        sel.vida:vida actual del personaje&#xa;                        ''';self.vida=self.vida-cont&#xa;                        if(self.vida&lt;=0):&#xa;                          morir()&#xa;&#xa;                        return self.vida&#xa;&#xa;                      def resteVida(self):&#xa;                        ''';Descripcion:&#xa;                          Resta una vida al personaje&#xa;                          ParÃ¡metros:&#xa;                            Retorno:&#xa;                              sel.vida:vida actual del personaje&#xa;                              ''';self.vida=self.vida-1&#xa;                              return self.vida&#xa;&#xa;                            def asiganrVelocidadY(self,valor):&#xa;                              ''';Descripcion:&#xa;                                Asigna una nueva velocidad en y al personaje&#xa;                                ParÃ¡metros:&#xa;                                  valor(int):nueva velocidad en y&#xa;                                  Retorno:&#xa;                                    ''';self.velocidadY=valor&#xa;&#xa;                                  def asignarVelocidadX(self,valor):&#xa;                                    ''';Descripcion:&#xa;                                      Asigna una nueva velocidad en x al personaje&#xa;                                      ParÃ¡metros:&#xa;                                        valor(int):nueva velocidad en x&#xa;                                        Retorno:&#xa;                                          ''';self.velocidadX=valor&#xa;&#xa;                                        def getVelocidadX(self):&#xa;                                          ''';Descripcion:&#xa;                                            Retorna la velocidad en x&#xa;                                            ParÃ¡metros:&#xa;                                              Retorno:&#xa;                                                self.velocidadX:velocidad en x del personaje&#xa;                                                ''';return self.velocidadX&#xa;&#xa;                                              def getVelocidadY(self):&#xa;                                                ''';Descripcion:&#xa;                                                  Retorna la velocidad en y&#xa;                                                  ParÃ¡metros:&#xa;                                                    Retorno:&#xa;                                                      self.velocidadY:velocidad en y del personaje&#xa;                                                      ''';return self.velocidadY&#xa;&#xa;                                                    def move(self,changeX,changeY):&#xa;                                                      ''';Descripcion:&#xa;                                                        Mueve el persona a otra posiciÃ³n&#xa;                                                        ParÃ¡metros:&#xa;                                                          changeX(int):nueva posiciÃ³n en x&#xa;                                                          changeY(int):nueva posiciÃ³n en y&#xa;                                                          Retorno:&#xa;                                                            ''';self.rect.x+=round(self.velocidadX*changeX)&#xa;                                                            self.rect.y+=round(self.velocidadY*changeY)&#xa;                                                            if self.rect.x>=self.largoVentana:&#xa;                                                              self.rect.x-=self.velocidadX*changeX&#xa;&#xa;                                                            if self.rect.x&lt;0:&#xa;                                                              self.rect.x=0&#xa;&#xa;                                                            if self.rect.y>950:&#xa;                                                            self.rect.y=950 if self.rect.y>=self.anchoVentana:&#xa;                                                              self.rect.y-=self.velocidadY*changeY&#xa;&#xa;&#xa;                                                          def disparar(self,posx,posy,velocidadBala):&#xa;                                                            ''';Descripcion:&#xa;                                                              Ataque del personaje&#xa;                                                              ParÃ¡metros:&#xa;                                                                Retorno:&#xa;                                                                  ''';rotacion=self.getRotacion()&#xa;                                                                  nuevaBala=balaMovimiento(posx,posy,self.imagenBala,velocidadBala,rotacion)&#xa;                                                                  entidades=self.groups()[0]&#xa;                                                                  entidades.add(nuevaBala)&#xa;&#xa;                                                                def getRotacion(self):&#xa;                                                                  resultado=0&#xa;                                                                  if self.image==self.imageIzquierda:&#xa;                                                                    resultado=1&#xa;&#xa;                                                                  elif self.image==self.imageAbajo:&#xa;                                                                    resultado=2&#xa;&#xa;                                                                  elif self.image==self.imageArriba:&#xa;                                                                    resultado=3&#xa;&#xa;                                                                  return resultado" id="uNDOtUWx7FNjo"/>
+    <sourcecode value="''';Descripcion:&#xa;  Constructor de la clase Enemigo&#xa;  Parametros:&#xa;    posx(int):posicion en x para el inicio del personaje&#xa;    posy(int):posicion en y para el inicio del personaje&#xa;    valor(int):vida inicial del personaje&#xa;    velX(int):valocidad del movimiento en x&#xa;    velY(int):velocidad del moviemiento en y&#xa;    ubicacionArchivo(string):ubicacion en la que se obtiene la imagen principal&#xa;    nombreArchivo(string):nombre de la imagen inicial&#xa;    ancho(int):ancho de la ventana en la que se mueve&#xa;    largo(int):largo de la ventana en la que ser mueve&#xa;    Retorno:&#xa;      ''';Personaje.__init__(self,posx,posy,valor,velX,velY,ubicacionArchivo,nombreArchivo,ancho,largo,imagenBala)&#xa;      pygame.key.set_repeat(100,50)&#xa;&#xa;    def update(self):&#xa;      if self.vida&lt;=0:&#xa;      self.morir()for event in pygame.event.get():&#xa;        if event.type==pygame.KEYDOWN:&#xa;          if event.key==pygame.K_LEFT:&#xa;            self.move(-1,0)&#xa;            self.image=self.imageIzquierda&#xa;&#xa;          if event.key==pygame.K_RIGHT:&#xa;            self.move(1,0)&#xa;            self.image=self.imageDerecha&#xa;&#xa;          if event.key==pygame.K_UP:&#xa;            self.move(0,-1)&#xa;            self.image=self.imageArriba&#xa;&#xa;          if event.key==pg.K_DOWN:&#xa;            self.move(0,1)&#xa;            self.image=self.imageAbajo&#xa;&#xa;          if event.key==pg.K_SPACE:&#xa;            x=self.rect.x&#xa;            y=self.rect.y&#xa;            self.disparar(x,y,10)&#xa;            print(&quot;disparar&quot;)&#xa;            pass&#xa;&#xa;          if event.key==pygame.K_RETURN:&#xa;            done=True&#xa;            finDelJuego(False,puntajeMostrar)&#xa;&#xa;&#xa;        if event.type==pygame.QUIT:&#xa;          pygame.quit()&#xa;          sys.exit(0)" id="u7qlFRWWNYYZ9"/>
+    <sourcecode value="'''Inicializa el laberinto con una cantidad de filas, columnas y el tamano de cada cuadro;Parametros:&#xa;  filas(int):Cantidad de filas del laberinto&#xa;  columnas(int):Cantidad de columnas del laberinto&#xa;  tamanoCuadro(int):Tamano del cada uno de los cuadros que conforman el laberinto&#xa;  ''';self.filas=filas&#xa;  self.columnas=columnas&#xa;  self.tamanoCuadro=tamanoCuadro&#xa;  self.matriz=[]&#xa;  for fila in range(self.filas):&#xa;    self.matriz.append([])&#xa;    for columna in range(self.columnas):&#xa;      self.matriz[fila].append(ObjetoLaberinto(0,0,0,0,0,None,&quot;Graficos/Laberinto&quot;,&quot;Tierra.png&quot;))&#xa;&#xa;&#xa;  self.objetos=pygame.sprite.Group()&#xa;  self.objetos.add(self.matriz)&#xa;&#xa;def rellenarLaberinto(self,objetoRelleno):&#xa;  '''Rellena la matriz del laberinto con el objeto que se le envia por parametros;Parametros:&#xa;    objetoRelleno(ObjetoLaberinto):Objeto con el cual se va a rellenar el laberinto&#xa;    ''';for fila in range(self.filas):&#xa;      for columna in range(self.columnas):&#xa;        objetoNuevo=ObjetoLaberinto(0,0,objetoRelleno.columna,objetoRelleno.fila,objetoRelleno.TamanoMax,objetoRelleno.nombre,objetoRelleno.ubicacionArchivo,objetoRelleno.nombreArchivo)&#xa;        objetoNuevo.image=objetoRelleno.image&#xa;        self.cambiarMatriz(objetoNuevo,fila,columna)&#xa;&#xa;&#xa;&#xa;  def cambiarMatriz(self,objetoNuevo,fila,columna):&#xa;    '''Modifica la posicion [fila][columna] de la matriz del laberinto, por el objeto que se envia por parametros;Parametros:&#xa;      objetoNuevo(ObjetoLaberinto):Objeto con el cual se va a rellenar la posicion fila,columna del laberinto&#xa;      fila(int):Fila en la matriz del nuevo objeto que se quiere agregar al laberinto&#xa;      columna(int):Columna en la matriz del nuevo objeto que se quiere agregar al laberinto&#xa;      ''';self.matriz[fila][columna].kill()&#xa;      objetoNuevo.rect.y=fila*self.tamanoCuadro&#xa;      objetoNuevo.rect.x=columna*self.tamanoCuadro&#xa;      self.matriz[fila][columna]=objetoNuevo&#xa;      self.objetos.add(objetoNuevo)" id="uQFKy9g6C3iC9"/>
+    <sourcecode value="super().__init__(posx,posy,col,fila,tamano,nombre,ubicacionArchivo,nombreArchivo)" id="uKRg2DyexNwdk"/>
+    <sourcecode value="'''Inicializa la ventana de juego;Parametros:&#xa;  anchoVentana(int):Indica el ancho de la ventana de juego&#xa;  alturaVentana(int):Indica la altura de la ventana de juego&#xa;  ''';self.ancho=anchoVentana&#xa;  self.altura=alturaVentana&#xa;  self.ventana=pygame.display.set_mode((self.ancho,self.altura))&#xa;&#xa;def dibujarElementos(self,elementos):&#xa;  '''Dibuja la lista de entidades en la pantalla de juego;Parametros:&#xa;    elementos(lista de entidades):Lista de entidades que se van a dibujar en la pantalla&#xa;    ''';for entidad in elementos:&#xa;      self.ventana.blit(entidad.getImage(),(entidad.getRectX(),entidad.getRectY()))&#xa;&#xa;&#xa;  def actualizarPantalla(self):&#xa;    '''Actualiza la pantalla de juego para reflejar las nuevas modificaciones'''&#xa;    pygame.display.flip()" id="unNmGe2JCMXwo"/>
+    <sourcecode value="''';Descripcion:&#xa;  Constructor de la clase Personaje_Extravelocidad&#xa;  Parametros:&#xa;    personaje(Personaje):objeto personaje&#xa;    velX(int):decoraciÃ³n de nueva valocidad del movimiento en x&#xa;    velY(int):decoraciÃ³n de nueva velocidad del moviemiento en y&#xa;    Retorno:&#xa;      ''';pygame.sprite.Sprite.__init__(self)&#xa;      self.objetoPersonaje=personaje&#xa;      self.actualVelocidadX=self.objetoPersonaje.getVelocidadX()&#xa;      self.actualVelocidadY=self.objetoPersonaje.getVelocidadY()&#xa;      self.nuevaVelocidadX=velX&#xa;      self.nuevaVelocidadY=velY&#xa;      self.objetoPersonaje.asignarVelocidadX(self.nuevaVelocidadX)&#xa;      self.objetoPersonaje.asiganrVelocidadY(self.nuevaVelocidadY)&#xa;&#xa;    def definirVida(self,valor):&#xa;      ''';Descripcion:&#xa;        Asigna nueva vida al personaje&#xa;        ParÃ¡metros:&#xa;          valor(int):nueva vida del personaje&#xa;          Retorno:&#xa;            ''';self.objetoPersonaje.definirVida(valor)&#xa;&#xa;          def getVida(self):&#xa;            ''';Descripcion:&#xa;              Retorna la vida del personaje&#xa;              ParÃ¡metros:&#xa;                Retorno:&#xa;                  self.vida:vida actual del personaje&#xa;                  ''';return self.objetoPersonaje.getVida()&#xa;&#xa;                def resteVida(self,cont):&#xa;                  ''';Descripcion:&#xa;                    Resta vida al personaje&#xa;                    ParÃ¡metros:&#xa;                      cont(int):cantidad de vida a restar&#xa;                      Retorno:&#xa;                        sel.vida:vida actual del personaje&#xa;                        ''';return self.objetoPersonaje.resteVida(cont)&#xa;&#xa;                      def resteVida(self):&#xa;                        ''';Descripcion:&#xa;                          Resta una vida al personaje&#xa;                          ParÃ¡metros:&#xa;                            Retorno:&#xa;                              sel.vida:vida actual del personaje&#xa;                              ''';return self.objetoPersonaje.resteVida()&#xa;&#xa;                            def asiganrVelocidadY(self,valor):&#xa;                              ''';Descripcion:&#xa;                                Asigna una nueva velocidad en y al personaje&#xa;                                ParÃ¡metros:&#xa;                                  valor(int):nueva velocidad en y&#xa;                                  Retorno:&#xa;                                    ''';self.objetoPersonaje.asignarVelocidadY(valor)&#xa;&#xa;                                  def asignarVelocidadX(self,valor):&#xa;                                    ''';Descripcion:&#xa;                                      Asigna una nueva velocidad en x al personaje&#xa;                                      ParÃ¡metros:&#xa;                                        valor(int):nueva velocidad en x&#xa;                                        Retorno:&#xa;                                          ''';self.objetoPersonaje.asignarVelocidadX(valor)&#xa;&#xa;                                        def terminarDecoracion(self):&#xa;                                          ''';Descripcion:&#xa;                                            Termina la decoraciÃ³n del personaje&#xa;                                            ParÃ¡metros:&#xa;                                              Retorno:&#xa;                                                self.objetoPersonaje:objeto personaje predeterminado sin decoraciÃ³n&#xa;                                                ''';self.objetoPersonaje.asignarVelocidadX(self.actualVelocidadX)&#xa;                                                self.objetoPersonaje.asiganrVelocidadY(self.actualVelocidadY)&#xa;                                                return self.objetoPersonaje&#xa;&#xa;                                              def getRectX(self):&#xa;                                                ''';DescriciÃ³n:&#xa;                                                  Retorna la posiciÃ³n en x del personaje&#xa;                                                  Parametros:&#xa;                                                    Retorno:&#xa;                                                      self.rect.x:Retorna la posiciÃ³n actual en x&#xa;                                                      ''';return self.objetoPersonaje.getRectX()&#xa;&#xa;                                                    def getRectY(self):&#xa;                                                      ''';DescriciÃ³n:&#xa;                                                        Retorna la posiciÃ³n en y del personaje&#xa;                                                        Parametros:&#xa;                                                          Retorno:&#xa;                                                            self.rect.y:Retorna la posiciÃ³n actual en y&#xa;                                                            ''';return self.objetoPersonaje.getRectY()&#xa;&#xa;                                                          def getImage(self):&#xa;                                                            ''';Descripcion:&#xa;                                                              Retorna la imagen actual del personaje&#xa;                                                              Parametros:&#xa;                                                                Retorno:&#xa;                                                                  self.image:Retorna la imagen actual del personaje&#xa;                                                                  ''';return self.objetoPersonaje.getImage()&#xa;&#xa;                                                                def move(self,changeX,changeY):&#xa;                                                                  ''';Descripcion:&#xa;                                                                    Mueve el personaje a otra posiciÃ³n&#xa;                                                                    ParÃ¡metros:&#xa;                                                                      changeX(int):nueva posiciÃ³n en x&#xa;                                                                      changeY(int):nueva posiciÃ³n en y&#xa;                                                                      Retorno:&#xa;                                                                        ''';self.objetoPersonaje.move(changeX,changeY)&#xa;&#xa;                                                                      def agregarAnimacionMovimiento(self,animacionNueva):&#xa;                                                                        ''';Descripcion:&#xa;                                                                          Agrega un vector con la animaciÃ³n de movimiento al personaje&#xa;                                                                          Parametros:&#xa;                                                                            animacionNueva(vector):Vector con las animaiones de movimiento&#xa;                                                                            Retorno:&#xa;                                                                              ''';self.objetoPersonaje.agregarAnimacionMovimiento(animacionNueva)&#xa;&#xa;&#xa;                                                                            def agregarAnimacionMuerte(self,animacionNueva):&#xa;                                                                              ''';Descripcion:&#xa;                                                                                Agrega un vector con la animaciÃ³n de muerte al personaje&#xa;                                                                                Parametros:&#xa;                                                                                  animacionNueva(vector):Vector con las animaiones de muerte&#xa;                                                                                  Retorno:&#xa;                                                                                    ''';self.objetoPersonaje.agregarAnimacionMuerte(animacionNueva)&#xa;&#xa;&#xa;                                                                                  def cambiarAnimacionMuerte(self):&#xa;                                                                                    ''';DescriciÃ³n:&#xa;                                                                                      Cambia la animaciÃ³n utilizada actualmente por el personaje por la animaciÃ³n de muerte&#xa;                                                                                      Parametros:&#xa;                                                                                        Retorno:&#xa;                                                                                          ''';self.objetoPersonaje.cambiarAnimacionMuerte()&#xa;&#xa;&#xa;                                                                                        def cambiarAnimacionMovimiento(self):&#xa;                                                                                          ''';Descripcion:&#xa;                                                                                            Cambia la animaciÃ³n utilizada actualmente por el personaje por la animaciÃ³n de movimiento&#xa;                                                                                            Parametros:&#xa;                                                                                              Retorno:&#xa;                                                                                                ''';self.objetoPersonaje.cambiarAnimacionMovimiento()&#xa;&#xa;&#xa;                                                                                              def cambiarVelocidadAnimacion(self,tiempo):&#xa;                                                                                                ''';Descripcion:&#xa;                                                                                                  Cambia la velocidad con la que transcurre la animaciÃ³n en el personaje&#xa;                                                                                                  Parametros:&#xa;                                                                                                    tiempo(int):Indica la velocidad con la que la animaciÃ³n del personaje transcurre&#xa;                                                                                                    Retorno:&#xa;                                                                                                      ''';self.objetoPersonaje.cambiarVelocidadAnimacion(tiempo)&#xa;&#xa;&#xa;                                                                                                    def actualizarImagen(self):&#xa;                                                                                                      ''';DescriciÃ³n:&#xa;                                                                                                        MÃ©todo que se encarga de actualizar la imagen de animaciÃ³n del personaje&#xa;                                                                                                        Parametros:&#xa;                                                                                                          Retorno:&#xa;                                                                                                            ''';self.objetoPersonaje.actualizarImagen()&#xa;" id="uLaf5RUp59mGM"/>
+    <sourcecode value="''';Descripcion:&#xa;  Constructor de la clase Personaje_Extravida&#xa;  Parametros:&#xa;    personaje(Personaje):objeto personaje&#xa;    val(int):nueva vida del personaje&#xa;    Retorno:&#xa;      ''';pygame.sprite.Sprite.__init__(self)&#xa;      self.objetoPersonaje=personaje&#xa;      self.extraVida=val&#xa;      self.vidaActual=self.objetoPersonaje.getVida()&#xa;      self.objetoPersonaje.definirVida(self.extraVida+self.vidaActual)&#xa;&#xa;    def definirVida(self,valor):&#xa;      ''';Descripcion:&#xa;        Asigna nueva vida al personaje&#xa;        ParÃ¡metros:&#xa;          valor(int):nueva vida del personaje&#xa;          Retorno:&#xa;            ''';self.objetoPersonaje.definirVida(valor)&#xa;&#xa;          def getVida(self):&#xa;            ''';Descripcion:&#xa;              Retorna la vida del personaje&#xa;              ParÃ¡metros:&#xa;                Retorno:&#xa;                  self.vida:vida actual del personaje&#xa;                  ''';return self.objetoPersonaje.getVida()&#xa;&#xa;                def resteVida(self,cont):&#xa;                  ''';Descripcion:&#xa;                    Resta vida al personaje&#xa;                    ParÃ¡metros:&#xa;                      cont(int):cantidad de vida a restar&#xa;                      Retorno:&#xa;                        sel.vida:vida actual del personaje&#xa;                        ''';return self.objetoPersonaje.resteVida(cont)&#xa;&#xa;                      def resteVida(self):&#xa;                        ''';Descripcion:&#xa;                          Resta una vida al personaje&#xa;                          ParÃ¡metros:&#xa;                            Retorno:&#xa;                              sel.vida:vida actual del personaje&#xa;                              ''';return self.objetoPersonaje.resteVida()&#xa;&#xa;                            def asiganrVelocidadY(self,valor):&#xa;                              ''';Descripcion:&#xa;                                Asigna una nueva velocidad en y al personaje&#xa;                                ParÃ¡metros:&#xa;                                  valor(int):nueva velocidad en y&#xa;                                  Retorno:&#xa;                                    ''';self.objetoPersonaje.asignarVelocidadY(valor)&#xa;&#xa;                                  def asignarVelocidadX(self,valor):&#xa;                                    ''';Descripcion:&#xa;                                      Asigna una nueva velocidad en x al personaje&#xa;                                      ParÃ¡metros:&#xa;                                        valor(int):nueva velocidad en x&#xa;                                        Retorno:&#xa;                                          ''';self.objetoPersonaje.asignarVelocidadX(valor)&#xa;&#xa;                                        def terminarDecoracion(self):&#xa;                                          ''';Descripcion:&#xa;                                            Termina la decoraciÃ³n del personaje&#xa;                                            ParÃ¡metros:&#xa;                                              Retorno:&#xa;                                                self.objetoPersonaje:objeto personaje predeterminado sin decoraciÃ³n&#xa;                                                ''';self.extraVida=0&#xa;                                                return objetoPersonaje&#xa;&#xa;                                              def getRectX(self):&#xa;                                                ''';Descripcion:&#xa;                                                  Retorna la posiciÃ³n en x del personaje&#xa;                                                  Parametros:&#xa;                                                    Retorno:&#xa;                                                      self.rect.x:Retorna la posiciÃ³n actual en x&#xa;                                                      ''';return self.objetoPersonaje.getRectX()&#xa;&#xa;                                                    def getRectY(self):&#xa;                                                      ''';DescriciÃ³n:&#xa;                                                        Retorna la posiciÃ³n en y del personaje&#xa;                                                        Parametros:&#xa;                                                          Retorno:&#xa;                                                            self.rect.y:Retorna la posiciÃ³n actual en y&#xa;                                                            ''';return self.objetoPersonaje.getRectY()&#xa;&#xa;                                                          def getImage(self):&#xa;                                                            ''';Descripcion:&#xa;                                                              Retorna la imagen actual del personaje&#xa;                                                              Parametros:&#xa;                                                                Retorno:&#xa;                                                                  self.image:Retorna la imagen actual del personaje&#xa;                                                                  ''';return self.objetoPersonaje.getImage()&#xa;&#xa;                                                                def move(self,changeX,changeY):&#xa;                                                                  ''';Descripcion:&#xa;                                                                    Mueve el personaje a otra posiciÃ³n&#xa;                                                                    ParÃ¡metros:&#xa;                                                                      changeX(int):nueva posiciÃ³n en x&#xa;                                                                      changeY(int):nueva posiciÃ³n en y&#xa;                                                                      Retorno:&#xa;                                                                        ''';self.objetoPersonaje.move(changeX,changeY)&#xa;&#xa;                                                                      def agregarAnimacionMovimiento(self,animacionNueva):&#xa;                                                                        ''';Descripcion:&#xa;                                                                          Agrega un vector con la animaciÃ³n de movimiento al personaje&#xa;                                                                          Parametros:&#xa;                                                                            animacionNueva(vector):Vector con las animaiones de movimiento&#xa;                                                                            Retorno:&#xa;                                                                              ''';self.objetoPersonaje.agregarAnimacionMovimiento(animacionNueva)&#xa;&#xa;&#xa;                                                                            def agregarAnimacionMuerte(self,animacionNueva):&#xa;                                                                              ''';Descripcion:&#xa;                                                                                Agrega un vector con la animaciÃ³n de muerte al personaje&#xa;                                                                                Parametros:&#xa;                                                                                  animacionNueva(vector):Vector con las animaiones de muerte&#xa;                                                                                  Retorno:&#xa;                                                                                    ''';self.objetoPersonaje.agregarAnimacionMuerte(animacionNueva)&#xa;&#xa;&#xa;                                                                                  def cambiarAnimacionMuerte(self):&#xa;                                                                                    ''';DescriciÃ³n:&#xa;                                                                                      Cambia la animaciÃ³n utilizada actualmente por el personaje por la animaciÃ³n de muerte&#xa;                                                                                      Parametros:&#xa;                                                                                        Retorno:&#xa;                                                                                          ''';self.objetoPersonaje.cambiarAnimacionMuerte()&#xa;&#xa;&#xa;                                                                                        def cambiarAnimacionMovimiento(self):&#xa;                                                                                          ''';Descripcion:&#xa;                                                                                            Cambia la animaciÃ³n utilizada actualmente por el personaje por la animaciÃ³n de movimiento&#xa;                                                                                            Parametros:&#xa;                                                                                              Retorno:&#xa;                                                                                                ''';self.objetoPersonaje.cambiarAnimacionMovimiento()&#xa;&#xa;&#xa;                                                                                              def cambiarVelocidadAnimacion(self,tiempo):&#xa;                                                                                                ''';Descripcion:&#xa;                                                                                                  Cambia la velocidad con la que transcurre la animaciÃ³n en el personaje&#xa;                                                                                                  Parametros:&#xa;                                                                                                    tiempo(int):Indica la velocidad con la que la animaciÃ³n del personaje transcurre&#xa;                                                                                                    Retorno:&#xa;                                                                                                      ''';self.objetoPersonaje.cambiarVelocidadAnimacion(tiempo)&#xa;&#xa;&#xa;                                                                                                    def actualizarImagen(self):&#xa;                                                                                                      ''';DescriciÃ³n:&#xa;                                                                                                        MÃ©todo que se encarga de actualizar la imagen de animaciÃ³n del personaje&#xa;                                                                                                        Parametros:&#xa;                                                                                                          Retorno:&#xa;                                                                                                            ''';self.objetoPersonaje.actualizarImagen()&#xa;" id="uqeoX4Up97eR9"/>
+    <sourcecode value="''';Descripcion:&#xa;  Constructor de la clase Personaje_Inmunidad&#xa;  Parametros:&#xa;    personaje(Personaje):objeto personaje&#xa;    val(bool):inmunidad del personaje&#xa;    Retorno:&#xa;      ''';pygame.sprite.Sprite.__init__(self)&#xa;      self.objetoPersonaje=personaje&#xa;      self.inmunidad=val&#xa;&#xa;    def definirVida(self,valor):&#xa;      ''';Descripcion:&#xa;        Asigna nueva vida al personaje&#xa;        ParÃ¡metros:&#xa;          valor(int):nueva vida del personaje&#xa;          Retorno:&#xa;            ''';self.objetoPersonaje.definirVida(valor)&#xa;&#xa;          def getVida(self):&#xa;            ''';Descripcion:&#xa;              Retorna la vida del personaje&#xa;              ParÃ¡metros:&#xa;                Retorno:&#xa;                  self.vida:vida actual del personaje&#xa;                  ''';return self.objetoPersonaje.getVida()&#xa;&#xa;                def resteVida(self,cont):&#xa;                  ''';Descripcion:&#xa;                    Resta vida al personaje&#xa;                    ParÃ¡metros:&#xa;                      cont(int):cantidad de vida a restar&#xa;                      Retorno:&#xa;                        sel.vida:vida actual del personaje&#xa;                        ''';valor=0&#xa;&#xa;                        if(self.inmunidad==False):&#xa;                          valor=self.objetoPersonaje.resteVida(cont)&#xa;&#xa;                        else:&#xa;                          valor=self.objetoPersonaje.getVida()&#xa;&#xa;                        return valor&#xa;&#xa;                      def resteVida(self):&#xa;                        ''';Descripcion:&#xa;                          Resta una vida al personaje&#xa;                          ParÃ¡metros:&#xa;                            Retorno:&#xa;                              sel.vida:vida actual del personaje&#xa;                              ''';valor=0&#xa;&#xa;                              if(self.inmunidad==False):&#xa;                                valor=self.objetoPersonaje.resteVida()&#xa;&#xa;                              else:&#xa;                                valor=self.objetoPersonaje.getVida()&#xa;&#xa;                              return valor&#xa;&#xa;                            def terminarDecoracion(self):&#xa;                              ''';Descripcion:&#xa;                                Termina la decoraciÃ³n del personaje&#xa;                                ParÃ¡metros:&#xa;                                  Retorno:&#xa;                                    self.objetoPersonaje:objeto personaje predeterminado sin decoraciÃ³n&#xa;                                    ''';inmunidad=False&#xa;                                    return objetoPersonaje&#xa;&#xa;                                  def asiganrVelocidadY(self,valor):&#xa;                                    ''';Descripcion:&#xa;                                      Asigna una nueva velocidad en y al personaje&#xa;                                      ParÃ¡metros:&#xa;                                        valor(int):nueva velocidad en y&#xa;                                        Retorno:&#xa;                                          ''';self.objetoPersonaje.asignarVelocidadY(valor)&#xa;&#xa;                                        def asignarVelocidadX(self,valor):&#xa;                                          ''';Descripcion:&#xa;                                            Asigna una nueva velocidad en x al personaje&#xa;                                            ParÃ¡metros:&#xa;                                              valor(int):nueva velocidad en x&#xa;                                              Retorno:&#xa;                                                ''';self.objetoPersonaje.asignarVelocidadX(valor)&#xa;&#xa;                                              def getRectX(self):&#xa;                                                ''';DescriciÃ³n:&#xa;                                                  Retorna la posiciÃ³n en x del personaje&#xa;                                                  Parametros:&#xa;                                                    Retorno:&#xa;                                                      self.rect.x:Retorna la posiciÃ³n actual en x&#xa;                                                      ''';return self.objetoPersonaje.getRectX()&#xa;&#xa;                                                    def getRectY(self):&#xa;                                                      ''';DescriciÃ³n:&#xa;                                                        Retorna la posiciÃ³n en y del personaje&#xa;                                                        Parametros:&#xa;                                                          Retorno:&#xa;                                                            self.rect.y:Retorna la posiciÃ³n actual en y&#xa;                                                            ''';return self.objetoPersonaje.getRectY()&#xa;&#xa;                                                          def getImage(self):&#xa;                                                            ''';Descripcion:&#xa;                                                              Retorna la imagen actual del personaje&#xa;                                                              Parametros:&#xa;                                                                Retorno:&#xa;                                                                  self.image:Retorna la imagen actual del personaje&#xa;                                                                  ''';return self.objetoPersonaje.getImage()&#xa;&#xa;                                                                def move(self,changeX,changeY):&#xa;                                                                  ''';Descripcion:&#xa;                                                                    Mueve el personaje a otra posiciÃ³n&#xa;                                                                    ParÃ¡metros:&#xa;                                                                      changeX(int):nueva posiciÃ³n en x&#xa;                                                                      changeY(int):nueva posiciÃ³n en y&#xa;                                                                      Retorno:&#xa;                                                                        ''';self.objetoPersonaje.move(changeX,changeY)&#xa;&#xa;                                                                      def agregarAnimacionMovimiento(self,animacionNueva):&#xa;                                                                        ''';Descripcion:&#xa;                                                                          Agrega un vector con la animaciÃ³n de movimiento al personaje&#xa;                                                                          Parametros:&#xa;                                                                            animacionNueva(vector):Vector con las animaiones de movimiento&#xa;                                                                            Retorno:&#xa;                                                                              ''';self.objetoPersonaje.agregarAnimacionMovimiento(animacionNueva)&#xa;&#xa;&#xa;                                                                            def agregarAnimacionMuerte(self,animacionNueva):&#xa;                                                                              ''';Descripcion:&#xa;                                                                                Agrega un vector con la animaciÃ³n de muerte al personaje&#xa;                                                                                Parametros:&#xa;                                                                                  animacionNueva(vector):Vector con las animaiones de muerte&#xa;                                                                                  Retorno:&#xa;                                                                                    ''';self.objetoPersonaje.agregarAnimacionMuerte(animacionNueva)&#xa;&#xa;&#xa;                                                                                  def cambiarAnimacionMuerte(self):&#xa;                                                                                    ''';DescriciÃ³n:&#xa;                                                                                      Cambia la animaciÃ³n utilizada actualmente por el personaje por la animaciÃ³n de muerte&#xa;                                                                                      Parametros:&#xa;                                                                                        Retorno:&#xa;                                                                                          ''';self.objetoPersonaje.cambiarAnimacionMuerte()&#xa;&#xa;&#xa;                                                                                        def cambiarAnimacionMovimiento(self):&#xa;                                                                                          ''';Descripcion:&#xa;                                                                                            Cambia la animaciÃ³n utilizada actualmente por el personaje por la animaciÃ³n de movimiento&#xa;                                                                                            Parametros:&#xa;                                                                                              Retorno:&#xa;                                                                                                ''';self.objetoPersonaje.cambiarAnimacionMovimiento()&#xa;&#xa;&#xa;                                                                                              def cambiarVelocidadAnimacion(self,tiempo):&#xa;                                                                                                ''';Descripcion:&#xa;                                                                                                  Cambia la velocidad con la que transcurre la animaciÃ³n en el personaje&#xa;                                                                                                  Parametros:&#xa;                                                                                                    tiempo(int):Indica la velocidad con la que la animaciÃ³n del personaje transcurre&#xa;                                                                                                    Retorno:&#xa;                                                                                                      ''';self.objetoPersonaje.cambiarVelocidadAnimacion(tiempo)&#xa;&#xa;&#xa;                                                                                                    def actualizarImagen(self):&#xa;                                                                                                      ''';DescriciÃ³n:&#xa;                                                                                                        MÃ©todo que se encarga de actualizar la imagen de animaciÃ³n del personaje&#xa;                                                                                                        Parametros:&#xa;                                                                                                          Retorno:&#xa;                                                                                                            ''';self.objetoPersonaje.actualizarImagen()&#xa;" id="u5K45ApZjkgBJ"/>
+   </codegenerator>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
